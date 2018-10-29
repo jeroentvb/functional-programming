@@ -1,0 +1,2767 @@
+{
+    "aquabrowser": {
+        "version": "1",
+        "time-taken": "118",
+        "meta": {
+            "count": "5700",
+            "page": "1",
+            "rctx": "AR3JsQ6CMBAA0DsupCEs7E5ubkX4IFOxwmlpy9EmsvKFfo$TxuUtD4FqUHAeZ7du3sjmp27IMcz96277qSWEajbskaASfjz@IB34InZYo5VoRlt2bQGw007Fp8HTu0EAFa4GoE6cnD1qCSFpx0vmm@6FyuKg9A6@"
+        },
+        "feedbacks": {
+            "service": {
+                "name": "wikipedia-query",
+                "type": "jscallback",
+                "url": "https://nl.wikipedia.org/w/api.php?titles=rijk&action=query&prop=pageprops|info|extracts|links|pageimages&redirects&format=json&continue&inprop=url"
+            }
+        },
+        "results": {
+            "result": [
+                {
+                    "id": {
+                        "nativeid": "536159",
+                        "ds": "library/v/OBA",
+                        "translation": "ID",
+                        "search-method": "id",
+                        "search-term": "|oba-catalogus|536159",
+                        "search-type": "precise",
+                        "$t": "|oba-catalogus|536159"
+                    },
+                    "frabl": {
+                        "translation": "FRBR Nummer (FRABL)",
+                        "search-method": "frabl",
+                        "search-term": "5EB0F6DA83F360A0",
+                        "search-type": "searcher",
+                        "$t": "5EB0F6DA83F360A0"
+                    },
+                    "detail-page": "http://obaliquid.staging.aquabrowser.nl/detail/Caroline-Roodenburg-Schadd/%27-Goed-modern-werk%27-de-collectie-Regnault-in/Boek/?itemid=%7coba-catalogus%7c536159",
+                    "coverimages": {
+                        "coverimage": [
+                            {
+                                "translation": "Cover",
+                                "$t": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=138791740&isbn=9789040097522&lid=&aut=&ti=&size=70"
+                            },
+                            {
+                                "translation": "Cover",
+                                "$t": "https://v19.nbc.bibliotheek.nl/thumbnail?uri=http://data.bibliotheek.nl/ggc/ppn/138791740&token=c1322402"
+                            }
+                        ]
+                    },
+                    "titles": {
+                        "title": {
+                            "translation": "Titel",
+                            "search-method": "title",
+                            "search-term": "' Goed modern werk' : de collectie Regnault in Het Stedelijk / Caroline Roodenburg-Schadd",
+                            "search-type": "fuzzy",
+                            "$t": "' Goed modern werk' : de collectie Regnault in Het Stedelijk / Caroline Roodenburg-Schadd"
+                        },
+                        "short-title": {
+                            "translation": "Korte titel",
+                            "$t": "' Goed modern werk' : de collectie Regnault in Het Stedelijk"
+                        },
+                        "subtitle": {
+                            "translation": "Sub titel",
+                            "$t": "de collectie Regnault in Het Stedelijk"
+                        },
+                        "other-title": {
+                            "translation": "Andere titel",
+                            "$t": "collectie Regnault in Het Stedelijk"
+                        }
+                    },
+                    "authors": {
+                        "main-author": {
+                            "search-method": "author",
+                            "search-term": "Caroline Roodenburg-Schadd",
+                            "search-type": "searcher",
+                            "translation": "Auteur (hoofd)",
+                            "firstname": "Caroline",
+                            "lastname": "Roodenburg-Schadd",
+                            "creatortype": "person",
+                            "main": "true",
+                            "$t": "Roodenburg-Schadd, Caroline"
+                        }
+                    },
+                    "formats": {
+                        "format": {
+                            "translation": "Formaat",
+                            "search-method": "format",
+                            "search-term": "book",
+                            "search-type": "searcher",
+                            "$t": "book"
+                        }
+                    },
+                    "identifiers": {
+                        "isbn-id": {
+                            "search-method": "isbn",
+                            "search-term": "9040097526",
+                            "search-type": "searcher",
+                            "translation": "ISBN",
+                            "$t": "9040097526"
+                        },
+                        "ppn-id": {
+                            "search-method": "ppn",
+                            "search-term": "138791740",
+                            "search-type": "precise",
+                            "translation": "PICA productienummer",
+                            "$t": "138791740"
+                        }
+                    },
+                    "publication": {
+                        "year": {
+                            "translation": "Publicatiejaar",
+                            "search-method": "year",
+                            "search-term": "1995",
+                            "search-type": "searcher",
+                            "$t": "1995"
+                        },
+                        "publishers": {
+                            "publisher": {
+                                "translation": "Uitgever",
+                                "search-method": "publisher",
+                                "search-term": "Waanders",
+                                "search-type": "searcher",
+                                "year": "1995",
+                                "place": "Zwolle",
+                                "$t": "Waanders"
+                            }
+                        }
+                    },
+                    "classification": {
+                        "translation": "Plaatsingssuggestie",
+                        "siso-code": {
+                            "translation": "SISO",
+                            "search-method": "siso",
+                            "search-term": "700.5",
+                            "search-type": "precise",
+                            "$t": "700.5"
+                        }
+                    },
+                    "languages": {
+                        "language": {
+                            "translation": "Taal",
+                            "search-method": "language",
+                            "search-term": "dut",
+                            "search-type": "searcher",
+                            "$t": "dut"
+                        }
+                    },
+                    "subjects": {
+                        "topical-subject": [
+                            {
+                                "translation": "Onderwerp",
+                                "search-method": "subject",
+                                "search-term": "Regnault, Pierre Alexandre",
+                                "search-type": "fuzzy",
+                                "$t": "Regnault, Pierre Alexandre"
+                            },
+                            {
+                                "translation": "Onderwerp",
+                                "search-method": "subject",
+                                "search-term": "Regnault-collectie",
+                                "search-type": "fuzzy",
+                                "$t": "Regnault-collectie"
+                            },
+                            {
+                                "translation": "Onderwerp",
+                                "search-method": "subject",
+                                "search-term": "Stedelijk Museum (Amsterdam)",
+                                "search-type": "fuzzy",
+                                "$t": "Stedelijk Museum (Amsterdam)"
+                            },
+                            {
+                                "translation": "Onderwerp",
+                                "search-method": "subject",
+                                "search-term": "Catalogi",
+                                "search-type": "fuzzy",
+                                "$t": "Catalogi"
+                            },
+                            {
+                                "translation": "Onderwerp",
+                                "search-method": "subject",
+                                "search-term": "Beeldende kunst",
+                                "search-type": "fuzzy",
+                                "$t": "Beeldende kunst"
+                            },
+                            {
+                                "translation": "Onderwerp",
+                                "search-method": "subject",
+                                "search-term": "20e eeuw",
+                                "search-type": "fuzzy",
+                                "$t": "20e eeuw"
+                            },
+                            {
+                                "translation": "Onderwerp",
+                                "search-method": "subject",
+                                "search-term": "Tentoonstellingscatalogi",
+                                "search-type": "fuzzy",
+                                "$t": "Tentoonstellingscatalogi"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "physical-description": {
+                            "translation": "Kenmerken",
+                            "$t": "340 p: ill ; 29 cm"
+                        }
+                    },
+                    "summaries": {
+                        "summary": {
+                            "translation": "Samenvatting",
+                            "$t": "Studie naar het verzamelbeleid en de moderne collectie van P.A. Regnault (1868-1954) en naar het deel daarvan dat nog in rijks en Amsterdams gemeentelijk bezit is."
+                        }
+                    },
+                    "notes": {
+                        "note": [
+                            {
+                                "translation": "Aantekening",
+                                "$t": "Catalogus van de gelijknamige tentoonstelling gehouden in het Stedelijk Museum, Amsterdam, 15 september t/m 29 oktober 1995 ter gelegenheid van het 100-jarig bestaan van het Stedelijk Museum Amsterdam"
+                            },
+                            {
+                                "translation": "Aantekening",
+                                "$t": "Met lit. opg. en reg. - Met samenvatting in het Engels"
+                            },
+                            {
+                                "translation": "Aantekening",
+                                "$t": "Ook verschenen als proefschrift Universiteit van Amsterdam o.d.t.:"
+                            },
+                            {
+                                "translation": "Aantekening",
+                                "$t": "(1868-1954), verzamelend ondernemer en ondernemend verzamelaar van moderne kunst. - Zwolle : Waanders, 1995"
+                            }
+                        ]
+                    },
+                    "undup-info": {
+                        "key": "|oba-catalogus|536159",
+                        "cnt": "0",
+                        "sort": "title",
+                        "frabl": "5EB0F6DA83F360A0",
+                        "frabl-global-count": "1",
+                        "frabl-key1": "goed modern werk de collectie regnault in het stedelijk",
+                        "frabl-key2": "caroline roodenburg schadd",
+                        "translation": "Informatie over dubbele items"
+                    }
+                },
+                {
+                    "id": {
+                        "nativeid": "510818",
+                        "ds": "library/v/OBA",
+                        "translation": "ID",
+                        "search-method": "id",
+                        "search-term": "|oba-catalogus|510818",
+                        "search-type": "precise",
+                        "$t": "|oba-catalogus|510818"
+                    },
+                    "frabl": {
+                        "translation": "FRBR Nummer (FRABL)",
+                        "search-method": "frabl",
+                        "search-term": "3692FA8E7AF360A0",
+                        "search-type": "searcher",
+                        "$t": "3692FA8E7AF360A0"
+                    },
+                    "detail-page": "http://obaliquid.staging.aquabrowser.nl/detail/Rudolf-van-Zantwijk/%27-Met-mij-is-de-zon-opgegaan%27-de-levensloop/Boek/?itemid=%7coba-catalogus%7c510818",
+                    "coverimages": {
+                        "coverimage": [
+                            {
+                                "translation": "Cover",
+                                "$t": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=089578120&isbn=9789053331163&lid=&aut=&ti=&size=70"
+                            },
+                            {
+                                "translation": "Cover",
+                                "$t": "https://v19.nbc.bibliotheek.nl/thumbnail?uri=http://data.bibliotheek.nl/ggc/ppn/089578120&token=c1322402"
+                            }
+                        ]
+                    },
+                    "titles": {
+                        "title": {
+                            "translation": "Titel",
+                            "search-method": "title",
+                            "search-term": "' Met mij is de zon opgegaan' : de levensloop van Tlacayelel (1398-1478), de stichter van het Azteekse rijk / Rudolf van Zantwijk ; [eindred.: Femke P. Lagaaij]",
+                            "search-type": "fuzzy",
+                            "$t": "' Met mij is de zon opgegaan' : de levensloop van Tlacayelel (1398-1478), de stichter van het Azteekse rijk / Rudolf van Zantwijk ; [eindred.: Femke P. Lagaaij]"
+                        },
+                        "short-title": {
+                            "translation": "Korte titel",
+                            "$t": "' Met mij is de zon opgegaan' : de levensloop van Tlacayelel (1398-1478), de stichter van het Azteekse rijk"
+                        },
+                        "subtitle": {
+                            "translation": "Sub titel",
+                            "$t": "de levensloop van Tlacayelel (1398-1478), de stichter van het Azteekse rijk"
+                        }
+                    },
+                    "authors": {
+                        "main-author": {
+                            "search-method": "author",
+                            "search-term": "Rudolf van Zantwijk",
+                            "search-type": "searcher",
+                            "translation": "Auteur (hoofd)",
+                            "firstname": "Rudolf",
+                            "lastname": "Zantwijk",
+                            "preposition": "van",
+                            "creatortype": "person",
+                            "main": "true",
+                            "$t": "van Zantwijk, Rudolf"
+                        },
+                        "author": {
+                            "search-method": "author",
+                            "search-term": "Femke P. Lagaaij",
+                            "search-type": "searcher",
+                            "translation": "Auteur",
+                            "creatortype": "organization",
+                            "$t": "Femke P. Lagaaij"
+                        }
+                    },
+                    "formats": {
+                        "format": {
+                            "translation": "Formaat",
+                            "search-method": "format",
+                            "search-term": "book",
+                            "search-type": "searcher",
+                            "$t": "book"
+                        }
+                    },
+                    "identifiers": {
+                        "isbn-id": {
+                            "search-method": "isbn",
+                            "search-term": "9053331166",
+                            "search-type": "searcher",
+                            "translation": "ISBN",
+                            "$t": "9053331166"
+                        },
+                        "ppn-id": {
+                            "search-method": "ppn",
+                            "search-term": "089578120",
+                            "search-type": "precise",
+                            "translation": "PICA productienummer",
+                            "$t": "089578120"
+                        }
+                    },
+                    "publication": {
+                        "year": {
+                            "translation": "Publicatiejaar",
+                            "search-method": "year",
+                            "search-term": "1992",
+                            "search-type": "searcher",
+                            "$t": "1992"
+                        },
+                        "publishers": {
+                            "publisher": {
+                                "translation": "Uitgever",
+                                "search-method": "publisher",
+                                "search-term": "Prometheus",
+                                "search-type": "searcher",
+                                "year": "1992",
+                                "place": "Amsterdam",
+                                "$t": "Prometheus"
+                            }
+                        }
+                    },
+                    "classification": {
+                        "translation": "Plaatsingssuggestie",
+                        "siso-code": {
+                            "translation": "SISO",
+                            "search-method": "siso",
+                            "search-term": "am 944.2",
+                            "search-type": "precise",
+                            "$t": "am 944.2"
+                        }
+                    },
+                    "languages": {
+                        "language": {
+                            "translation": "Taal",
+                            "search-method": "language",
+                            "search-term": "dut",
+                            "search-type": "searcher",
+                            "$t": "dut"
+                        }
+                    },
+                    "subjects": {
+                        "topical-subject": {
+                            "translation": "Onderwerp",
+                            "search-method": "subject",
+                            "search-term": "Tlacayelel",
+                            "search-type": "fuzzy",
+                            "$t": "Tlacayelel"
+                        }
+                    },
+                    "description": {
+                        "physical-description": {
+                            "translation": "Kenmerken",
+                            "$t": "248 p: ill ; 20 cm"
+                        }
+                    },
+                    "notes": {
+                        "note": {
+                            "translation": "Aantekening",
+                            "$t": "Met lit. opg"
+                        }
+                    },
+                    "undup-info": {
+                        "key": "|oba-catalogus|510818",
+                        "cnt": "0",
+                        "sort": "title",
+                        "frabl": "3692FA8E7AF360A0",
+                        "frabl-global-count": "1",
+                        "frabl-key1": "met mij is de zon opgegaan de levensloop van tlacayelel 1398 1478 de stichter van het azteekse rijk",
+                        "frabl-key2": "rudolf van zantwijk",
+                        "translation": "Informatie over dubbele items"
+                    }
+                },
+                {
+                    "id": {
+                        "nativeid": "807832",
+                        "ds": "library/v/OBA",
+                        "translation": "ID",
+                        "search-method": "id",
+                        "search-term": "|oba-catalogus|807832",
+                        "search-type": "precise",
+                        "$t": "|oba-catalogus|807832"
+                    },
+                    "frabl": {
+                        "translation": "FRBR Nummer (FRABL)",
+                        "search-method": "frabl",
+                        "search-term": "6D4DCCB1C1F38CC7",
+                        "search-type": "searcher",
+                        "$t": "6D4DCCB1C1F38CC7"
+                    },
+                    "detail-page": "http://obaliquid.staging.aquabrowser.nl/detail/Karl-Hoffkes/%2733-%2745-in-kleur/Dvd/?itemid=%7coba-catalogus%7c807832",
+                    "coverimages": {
+                        "coverimage": [
+                            {
+                                "translation": "Cover",
+                                "$t": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=310272785&isbn=&lid=&aut=&ti=&size=70"
+                            },
+                            {
+                                "translation": "Cover",
+                                "$t": "https://v19.nbc.bibliotheek.nl/thumbnail?uri=http://data.bibliotheek.nl/ggc/ppn/310272785&token=c1322402"
+                            }
+                        ]
+                    },
+                    "titles": {
+                        "title": {
+                            "translation": "Titel",
+                            "search-method": "title",
+                            "search-term": "'33-'45 in kleur / Buch Karl Höffkes",
+                            "search-type": "fuzzy",
+                            "$t": "'33-'45 in kleur / Buch Karl Höffkes"
+                        },
+                        "short-title": {
+                            "translation": "Korte titel",
+                            "$t": "'33-'45 in kleur"
+                        }
+                    },
+                    "authors": {
+                        "main-author": {
+                            "search-method": "author",
+                            "search-term": "Karl Höffkes",
+                            "search-type": "searcher",
+                            "translation": "Auteur (hoofd)",
+                            "creatortype": "organization",
+                            "main": "true",
+                            "$t": "Karl Höffkes"
+                        }
+                    },
+                    "formats": {
+                        "format": [
+                            {
+                                "translation": "Formaat",
+                                "search-method": "format",
+                                "search-term": "dvdvideo",
+                                "search-type": "searcher",
+                                "$t": "dvdvideo"
+                            },
+                            {
+                                "translation": "Formaat",
+                                "search-method": "format",
+                                "search-term": "movie",
+                                "search-type": "searcher",
+                                "$t": "movie"
+                            }
+                        ]
+                    },
+                    "types": {
+                        "type": {
+                            "translation": "Type",
+                            "$t": "Film"
+                        }
+                    },
+                    "identifiers": {
+                        "ppn-id": {
+                            "search-method": "ppn",
+                            "search-term": "310272785",
+                            "search-type": "precise",
+                            "translation": "PICA productienummer",
+                            "$t": "310272785"
+                        }
+                    },
+                    "publication": {
+                        "year": {
+                            "translation": "Publicatiejaar",
+                            "search-method": "year",
+                            "search-term": "2008",
+                            "search-type": "searcher",
+                            "$t": "2008"
+                        },
+                        "publishers": {
+                            "publisher": {
+                                "translation": "Uitgever",
+                                "search-method": "publisher",
+                                "search-term": "Just Entertainment",
+                                "search-type": "searcher",
+                                "year": "2008",
+                                "place": "[Hilversum]",
+                                "$t": "Just Entertainment"
+                            }
+                        }
+                    },
+                    "classification": {
+                        "translation": "Plaatsingssuggestie",
+                        "siso-code": {
+                            "translation": "SISO",
+                            "search-method": "siso",
+                            "search-term": "Duitsland 945.3",
+                            "search-type": "precise",
+                            "$t": "Duitsland 945.3"
+                        }
+                    },
+                    "languages": {
+                        "language": {
+                            "translation": "Taal",
+                            "search-method": "language",
+                            "search-term": "ger",
+                            "search-type": "searcher",
+                            "$t": "ger"
+                        }
+                    },
+                    "subjects": {
+                        "topical-subject": [
+                            {
+                                "translation": "Onderwerp",
+                                "search-method": "subject",
+                                "search-term": "Derde Rijk",
+                                "search-type": "fuzzy",
+                                "$t": "Derde Rijk"
+                            },
+                            {
+                                "translation": "Onderwerp",
+                                "search-method": "subject",
+                                "search-term": "Geschiedenis",
+                                "search-type": "fuzzy",
+                                "$t": "Geschiedenis"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "physical-description": {
+                            "translation": "Kenmerken",
+                            "$t": "1 dvd-video (70 min.): zw/w., kleur, geluid"
+                        }
+                    },
+                    "summaries": {
+                        "summary": {
+                            "translation": "Samenvatting",
+                            "$t": "Gebeurtenissen voor en tijdens de Tweede Wereldoorlog in (privé) kleurenbeelden"
+                        }
+                    },
+                    "notes": {
+                        "note": {
+                            "translation": "Aantekening",
+                            "$t": "Titel op film: '33-'45 in farbe : Deutschland und Europa in Krieg und Frieden = Duitsland en Europa in oorlog en vrede. - Videoversie van de gelijknamige film. - Duitsland : Polar Film, cop. 2000. - Duits gesproken, Nederlands ondertiteld"
+                        }
+                    },
+                    "series": {
+                        "series-title": {
+                            "translation": "In de reeks",
+                            "search-method": "series",
+                            "search-term": "Het Duitse archief",
+                            "search-type": "searcher",
+                            "$t": "Het Duitse archief"
+                        }
+                    },
+                    "undup-info": {
+                        "key": "|oba-catalogus|807832",
+                        "cnt": "0",
+                        "sort": "title",
+                        "frabl": "6D4DCCB1C1F38CC7",
+                        "frabl-global-count": "1",
+                        "frabl-key1": "33 45 in kleur",
+                        "frabl-key2": "karl hoffkes",
+                        "translation": "Informatie over dubbele items"
+                    }
+                },
+                {
+                    "id": {
+                        "nativeid": "collection.38571",
+                        "ds": "misc/adamnet",
+                        "translation": "ID",
+                        "search-method": "id",
+                        "search-term": "|misc/adamnet|collection.38571",
+                        "search-type": "precise",
+                        "$t": "|misc/adamnet|collection.38571"
+                    },
+                    "frabl": {
+                        "translation": "FRBR Nummer (FRABL)",
+                        "search-method": "frabl",
+                        "search-term": "",
+                        "search-type": "searcher"
+                    },
+                    "detail-page": "http://obaliquid.staging.aquabrowser.nl/detail/Adriaen-Pietersz-van-de-Venne/%27All-arm%27/Schilderij/?itemid=%7cmisc%2fadamnet%7ccollection.38571",
+                    "coverimages": {
+                        "coverimage": {
+                            "translation": "Cover",
+                            "$t": "http://amasp.adlibhosting.com/wwwopacx_images/wwwopac.ashx?command=getcontent&server=images&value=S_SA_7422_001.jpg"
+                        }
+                    },
+                    "titles": {
+                        "title": {
+                            "translation": "Titel",
+                            "search-method": "title",
+                            "search-term": "'All-arm'",
+                            "search-type": "fuzzy",
+                            "$t": "'All-arm'"
+                        }
+                    },
+                    "authors": {
+                        "main-author": {
+                            "search-method": "author",
+                            "search-term": "Adriaen Pietersz. van de Venne",
+                            "search-type": "searcher",
+                            "translation": "Auteur (hoofd)",
+                            "main": "true",
+                            "$t": "van de Venne, Adriaen Pietersz."
+                        }
+                    },
+                    "formats": {
+                        "format": {
+                            "translation": "Formaat",
+                            "search-method": "format",
+                            "search-term": "Painting",
+                            "search-type": "searcher",
+                            "$t": "Painting"
+                        }
+                    },
+                    "eresources": {
+                        "eresource": {
+                            "type": "website",
+                            "url": "http://hdl.handle.net/11259/collection.38571",
+                            "translation": "Website"
+                        }
+                    },
+                    "languages": {
+                        "language": {
+                            "translation": "Taal",
+                            "search-method": "language",
+                            "search-term": "dut",
+                            "search-type": "searcher",
+                            "$t": "dut"
+                        }
+                    },
+                    "subjects": {
+                        "subject": [
+                            {
+                                "translation": "Onderwerp",
+                                "search-method": "subject",
+                                "search-term": "criminaliteit",
+                                "search-type": "fuzzy",
+                                "$t": "criminaliteit"
+                            },
+                            {
+                                "translation": "Onderwerp",
+                                "search-method": "subject",
+                                "search-term": "justitie, politie, criminaliteit, gevangenissen",
+                                "search-type": "fuzzy",
+                                "$t": "justitie, politie, criminaliteit, gevangenissen"
+                            },
+                            {
+                                "translation": "Onderwerp",
+                                "search-method": "subject",
+                                "search-term": "genre",
+                                "search-type": "fuzzy",
+                                "$t": "genre"
+                            }
+                        ]
+                    },
+                    "summaries": {
+                        "summary": {
+                            "translation": "Samenvatting",
+                            "$t": "Een groep vechtende bedelaars is afgebeeld onder het motto all' -arm! Dit is een woordcombinatie van allen arm en de waarschuwingskreet alarm die afkomstig is van het Franse à l arme (te wapen) Op spottende wijze wordt uitgebeeld dat waar armoede heerst geweld onvermijdelijk is. ;Een groep vechtende bedelaars is afgebeeld onder het motto \"all' -arm! Dit is een woordcombinatie van \"allen arm\" en de kreet \"alarm! die afkomstig is van het Franse \"à…"
+                        }
+                    },
+                    "undup-info": {
+                        "key": "|misc/adamnet|collection.38571",
+                        "cnt": "0",
+                        "sort": "title",
+                        "frabl": "",
+                        "frabl-global-count": "",
+                        "frabl-key1": "",
+                        "frabl-key2": "",
+                        "translation": "Informatie over dubbele items"
+                    }
+                },
+                {
+                    "id": {
+                        "nativeid": "202963",
+                        "ds": "library/v/OBA",
+                        "translation": "ID",
+                        "search-method": "id",
+                        "search-term": "|oba-catalogus|202963",
+                        "search-type": "precise",
+                        "$t": "|oba-catalogus|202963"
+                    },
+                    "frabl": {
+                        "translation": "FRBR Nummer (FRABL)",
+                        "search-method": "frabl",
+                        "search-term": "3D4CBD7B7FF360A0",
+                        "search-type": "searcher",
+                        "$t": "3D4CBD7B7FF360A0"
+                    },
+                    "detail-page": "http://obaliquid.staging.aquabrowser.nl/detail/Johannes-Houwink-ten-Cate/%27De-Mannen-van-de-Daad%27-en-Duitsland-1919/Boek/?itemid=%7coba-catalogus%7c202963",
+                    "coverimages": {
+                        "coverimage": [
+                            {
+                                "translation": "Cover",
+                                "$t": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=143784692&isbn=9789012082860&lid=&aut=&ti=&size=70"
+                            },
+                            {
+                                "translation": "Cover",
+                                "$t": "https://v19.nbc.bibliotheek.nl/thumbnail?uri=http://data.bibliotheek.nl/ggc/ppn/143784692&token=c1322402"
+                            }
+                        ]
+                    },
+                    "titles": {
+                        "title": {
+                            "translation": "Titel",
+                            "search-method": "title",
+                            "search-term": "'De Mannen van de Daad' en Duitsland, 1919-1939 : het Hollandse zakenleven en de vooroorlogse buitenlandse politiek / Johannes Houwink ten Cate",
+                            "search-type": "fuzzy",
+                            "$t": "'De Mannen van de Daad' en Duitsland, 1919-1939 : het Hollandse zakenleven en de vooroorlogse buitenlandse politiek / Johannes Houwink ten Cate"
+                        },
+                        "short-title": {
+                            "translation": "Korte titel",
+                            "$t": "'De Mannen van de Daad' en Duitsland, 1919-1939 : het Hollandse zakenleven en de vooroorlogse buitenlandse politiek"
+                        },
+                        "subtitle": {
+                            "translation": "Sub titel",
+                            "$t": "het Hollandse zakenleven en de vooroorlogse buitenlandse politiek"
+                        }
+                    },
+                    "authors": {
+                        "main-author": {
+                            "search-method": "author",
+                            "search-term": "Johannes Houwink ten Cate",
+                            "search-type": "searcher",
+                            "translation": "Auteur (hoofd)",
+                            "firstname": "Johannes Houwink",
+                            "lastname": "Cate",
+                            "preposition": "ten",
+                            "creatortype": "person",
+                            "main": "true",
+                            "$t": "ten Cate, Johannes Houwink"
+                        }
+                    },
+                    "formats": {
+                        "format": {
+                            "translation": "Formaat",
+                            "search-method": "format",
+                            "search-term": "book",
+                            "search-type": "searcher",
+                            "$t": "book"
+                        }
+                    },
+                    "identifiers": {
+                        "isbn-id": {
+                            "search-method": "isbn",
+                            "search-term": "9012082862",
+                            "search-type": "searcher",
+                            "translation": "ISBN",
+                            "$t": "9012082862"
+                        },
+                        "ppn-id": {
+                            "search-method": "ppn",
+                            "search-term": "143784692",
+                            "search-type": "precise",
+                            "translation": "PICA productienummer",
+                            "$t": "143784692"
+                        }
+                    },
+                    "publication": {
+                        "year": {
+                            "translation": "Publicatiejaar",
+                            "search-method": "year",
+                            "search-term": "1995",
+                            "search-type": "searcher",
+                            "$t": "1995"
+                        },
+                        "publishers": {
+                            "publisher": {
+                                "translation": "Uitgever",
+                                "search-method": "publisher",
+                                "search-term": "Sdu Uitgevers",
+                                "search-type": "searcher",
+                                "year": "1995",
+                                "place": "Den Haag",
+                                "$t": "Sdu Uitgevers"
+                            }
+                        }
+                    },
+                    "classification": {
+                        "translation": "Plaatsingssuggestie",
+                        "siso-code": [
+                            {
+                                "translation": "SISO",
+                                "search-method": "siso",
+                                "search-term": "935.2",
+                                "search-type": "precise",
+                                "$t": "935.2"
+                            },
+                            {
+                                "translation": "SISO",
+                                "search-method": "siso",
+                                "search-term": "354.2",
+                                "search-type": "precise",
+                                "$t": "354.2"
+                            }
+                        ]
+                    },
+                    "languages": {
+                        "language": {
+                            "translation": "Taal",
+                            "search-method": "language",
+                            "search-term": "dut",
+                            "search-type": "searcher",
+                            "$t": "dut"
+                        }
+                    },
+                    "subjects": {
+                        "topical-subject": [
+                            {
+                                "translation": "Onderwerp",
+                                "search-method": "subject",
+                                "search-term": "Hendrikus Colijn 1869-1944",
+                                "search-type": "fuzzy",
+                                "$t": "Hendrikus Colijn 1869-1944"
+                            },
+                            {
+                                "translation": "Onderwerp",
+                                "search-method": "subject",
+                                "search-term": "Buitenlandse politiek",
+                                "search-type": "fuzzy",
+                                "$t": "Buitenlandse politiek"
+                            },
+                            {
+                                "translation": "Onderwerp",
+                                "search-method": "subject",
+                                "search-term": "Duitsland",
+                                "search-type": "fuzzy",
+                                "$t": "Duitsland"
+                            },
+                            {
+                                "translation": "Onderwerp",
+                                "search-method": "subject",
+                                "search-term": "1919-1933",
+                                "search-type": "fuzzy",
+                                "$t": "1919-1933"
+                            },
+                            {
+                                "translation": "Onderwerp",
+                                "search-method": "subject",
+                                "search-term": "Nederland",
+                                "search-type": "fuzzy",
+                                "$t": "Nederland"
+                            },
+                            {
+                                "translation": "Onderwerp",
+                                "search-method": "subject",
+                                "search-term": "1919-1939",
+                                "search-type": "fuzzy",
+                                "$t": "1919-1939"
+                            },
+                            {
+                                "translation": "Onderwerp",
+                                "search-method": "subject",
+                                "search-term": "Handelspolitiek",
+                                "search-type": "fuzzy",
+                                "$t": "Handelspolitiek"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "physical-description": {
+                            "translation": "Kenmerken",
+                            "$t": "327 p., [16] p. pl: ill ; 24 cm"
+                        }
+                    },
+                    "summaries": {
+                        "summary": {
+                            "translation": "Samenvatting",
+                            "$t": "De invloed van het zakenleven op de buitenlandse politiek van Nederland tijdens het interbellum."
+                        }
+                    },
+                    "notes": {
+                        "note": [
+                            {
+                                "translation": "Aantekening",
+                                "$t": "Ook verschenen als proefschrift Rijks Universiteit Utrecht"
+                            },
+                            {
+                                "translation": "Aantekening",
+                                "$t": "Met lit. opg., reg. - Met samenvatting in het Duits"
+                            }
+                        ]
+                    },
+                    "undup-info": {
+                        "key": "|oba-catalogus|202963",
+                        "cnt": "0",
+                        "sort": "title",
+                        "frabl": "3D4CBD7B7FF360A0",
+                        "frabl-global-count": "1",
+                        "frabl-key1": "de mannen van de daad en duitsland 1919 1939 het hollandse zakenleven en de vooroorlogse buitenlandse politiek",
+                        "frabl-key2": "johannes houwink ten cate",
+                        "translation": "Informatie over dubbele items"
+                    }
+                },
+                {
+                    "id": {
+                        "nativeid": "880631",
+                        "ds": "library/v/OBA",
+                        "translation": "ID",
+                        "search-method": "id",
+                        "search-term": "|oba-catalogus|880631",
+                        "search-type": "precise",
+                        "$t": "|oba-catalogus|880631"
+                    },
+                    "frabl": {
+                        "translation": "FRBR Nummer (FRABL)",
+                        "search-method": "frabl",
+                        "search-term": "9371D70A0F360A0",
+                        "search-type": "searcher",
+                        "$t": "9371D70A0F360A0"
+                    },
+                    "detail-page": "http://obaliquid.staging.aquabrowser.nl/detail/Guido-van-Hengel/%27Een-ondernemend-volkje%27-hoe-Nederland-zich/Boek/?itemid=%7coba-catalogus%7c880631",
+                    "coverimages": {
+                        "coverimage": [
+                            {
+                                "translation": "Cover",
+                                "$t": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=314679227&isbn=9789085711988&lid=&aut=&ti=&size=70"
+                            },
+                            {
+                                "translation": "Cover",
+                                "$t": "https://media.cdr.nl/COVER/small/FRONT/2008431636.jpg"
+                            },
+                            {
+                                "translation": "Cover",
+                                "$t": "https://v19.nbc.bibliotheek.nl/thumbnail?uri=http://data.bibliotheek.nl/ggc/ppn/314679227&token=c1322402"
+                            }
+                        ]
+                    },
+                    "titles": {
+                        "title": {
+                            "translation": "Titel",
+                            "search-method": "title",
+                            "search-term": "'Een ondernemend volkje' : hoe Nederland zich wereldwijd op de kaart zette / Guido van Hengel",
+                            "search-type": "fuzzy",
+                            "$t": "'Een ondernemend volkje' : hoe Nederland zich wereldwijd op de kaart zette / Guido van Hengel"
+                        },
+                        "short-title": {
+                            "translation": "Korte titel",
+                            "$t": "'Een ondernemend volkje' : hoe Nederland zich wereldwijd op de kaart zette"
+                        },
+                        "subtitle": {
+                            "translation": "Sub titel",
+                            "$t": "hoe Nederland zich wereldwijd op de kaart zette"
+                        }
+                    },
+                    "authors": {
+                        "main-author": {
+                            "search-method": "author",
+                            "search-term": "Guido van Hengel",
+                            "search-type": "searcher",
+                            "translation": "Auteur (hoofd)",
+                            "firstname": "Guido",
+                            "lastname": "Hengel",
+                            "preposition": "van",
+                            "creatortype": "person",
+                            "main": "true",
+                            "$t": "van Hengel, Guido"
+                        },
+                        "author": {
+                            "search-method": "author",
+                            "search-term": "Jan Dirk Snel",
+                            "search-type": "searcher",
+                            "translation": "Auteur",
+                            "creatortype": "organization",
+                            "$t": "Jan Dirk Snel"
+                        }
+                    },
+                    "formats": {
+                        "format": {
+                            "translation": "Formaat",
+                            "search-method": "format",
+                            "search-term": "book",
+                            "search-type": "searcher",
+                            "$t": "book"
+                        }
+                    },
+                    "identifiers": {
+                        "isbn-id": {
+                            "search-method": "isbn",
+                            "search-term": "9789085711988",
+                            "search-type": "searcher",
+                            "translation": "ISBN",
+                            "$t": "9789085711988"
+                        },
+                        "ppn-id": {
+                            "search-method": "ppn",
+                            "search-term": "314679227",
+                            "search-type": "precise",
+                            "translation": "PICA productienummer",
+                            "$t": "314679227"
+                        },
+                        "cdr-id": {
+                            "search-method": "cdr",
+                            "search-term": "2008431636",
+                            "search-type": "precise",
+                            "translation": "Muziekweb",
+                            "$t": "2008431636"
+                        }
+                    },
+                    "publication": {
+                        "year": {
+                            "translation": "Publicatiejaar",
+                            "search-method": "year",
+                            "search-term": "2008",
+                            "search-type": "searcher",
+                            "$t": "2008"
+                        },
+                        "publishers": {
+                            "publisher": {
+                                "translation": "Uitgever",
+                                "search-method": "publisher",
+                                "search-term": "Veen Magazines",
+                                "search-type": "searcher",
+                                "year": "2008",
+                                "place": "Diemen",
+                                "$t": "Veen Magazines"
+                            }
+                        }
+                    },
+                    "classification": {
+                        "translation": "Plaatsingssuggestie",
+                        "siso-code": {
+                            "translation": "SISO",
+                            "search-method": "siso",
+                            "search-term": "932.9",
+                            "search-type": "precise",
+                            "$t": "932.9"
+                        }
+                    },
+                    "languages": {
+                        "language": {
+                            "translation": "Taal",
+                            "search-method": "language",
+                            "search-term": "dut",
+                            "search-type": "searcher",
+                            "$t": "dut"
+                        }
+                    },
+                    "subjects": {
+                        "topical-subject": [
+                            {
+                                "translation": "Onderwerp",
+                                "search-method": "subject",
+                                "search-term": "Nederland",
+                                "search-type": "fuzzy",
+                                "$t": "Nederland"
+                            },
+                            {
+                                "translation": "Onderwerp",
+                                "search-method": "subject",
+                                "search-term": "Economische geschiedenis",
+                                "search-type": "fuzzy",
+                                "$t": "Economische geschiedenis"
+                            },
+                            {
+                                "translation": "Onderwerp",
+                                "search-method": "subject",
+                                "search-term": "Internationale aspecten",
+                                "search-type": "fuzzy",
+                                "$t": "Internationale aspecten"
+                            },
+                            {
+                                "translation": "Onderwerp",
+                                "search-method": "subject",
+                                "search-term": "Ondernemers",
+                                "search-type": "fuzzy",
+                                "$t": "Ondernemers"
+                            },
+                            {
+                                "translation": "Onderwerp",
+                                "search-method": "subject",
+                                "search-term": "Buitenland",
+                                "search-type": "fuzzy",
+                                "$t": "Buitenland"
+                            },
+                            {
+                                "translation": "Onderwerp",
+                                "search-method": "subject",
+                                "search-term": "Geschiedenis",
+                                "search-type": "fuzzy",
+                                "$t": "Geschiedenis"
+                            },
+                            {
+                                "translation": "Onderwerp",
+                                "search-method": "subject",
+                                "search-term": "Geer, Lodewijk de",
+                                "search-type": "fuzzy",
+                                "$t": "Geer, Lodewijk de"
+                            },
+                            {
+                                "translation": "Onderwerp",
+                                "search-method": "subject",
+                                "search-term": "Cruys, Cornelius",
+                                "search-type": "fuzzy",
+                                "$t": "Cruys, Cornelius"
+                            },
+                            {
+                                "translation": "Onderwerp",
+                                "search-method": "subject",
+                                "search-term": "Slavenhandel",
+                                "search-type": "fuzzy",
+                                "$t": "Slavenhandel"
+                            },
+                            {
+                                "translation": "Onderwerp",
+                                "search-method": "subject",
+                                "search-term": "Scholten, Willem Albert",
+                                "search-type": "fuzzy",
+                                "$t": "Scholten, Willem Albert"
+                            },
+                            {
+                                "translation": "Onderwerp",
+                                "search-method": "subject",
+                                "search-term": "Colijn, H",
+                                "search-type": "fuzzy",
+                                "$t": "Colijn, H"
+                            },
+                            {
+                                "translation": "Onderwerp",
+                                "search-method": "subject",
+                                "search-term": "Rijke, Johannis de",
+                                "search-type": "fuzzy",
+                                "$t": "Rijke, Johannis de"
+                            },
+                            {
+                                "translation": "Onderwerp",
+                                "search-method": "subject",
+                                "search-term": "Fokker, Anthony",
+                                "search-type": "fuzzy",
+                                "$t": "Fokker, Anthony"
+                            },
+                            {
+                                "translation": "Onderwerp",
+                                "search-method": "subject",
+                                "search-term": "Heineken (bierbrouwerij)",
+                                "search-type": "fuzzy",
+                                "$t": "Heineken (bierbrouwerij)"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "physical-description": {
+                            "translation": "Kenmerken",
+                            "$t": "113 p: ill., krt., portr ; 22 cm"
+                        }
+                    },
+                    "summaries": {
+                        "summary": {
+                            "translation": "Samenvatting",
+                            "$t": "Historische artikelen over Nederlandse ondernemers en ondernemingen die met succes in het buitenland actief waren en zijn."
+                        }
+                    },
+                    "notes": {
+                        "note": {
+                            "translation": "Aantekening",
+                            "$t": "Met lit.opg"
+                        }
+                    },
+                    "undup-info": {
+                        "key": "|oba-catalogus|880631",
+                        "cnt": "0",
+                        "sort": "title",
+                        "frabl": "9371D70A0F360A0",
+                        "frabl-global-count": "1",
+                        "frabl-key1": "een ondernemend volkje hoe nederland zich wereldwijd op de kaart zette",
+                        "frabl-key2": "guido van hengel",
+                        "translation": "Informatie over dubbele items"
+                    }
+                },
+                {
+                    "id": {
+                        "nativeid": "856942",
+                        "ds": "library/v/OBA",
+                        "translation": "ID",
+                        "search-method": "id",
+                        "search-term": "|oba-catalogus|856942",
+                        "search-type": "precise",
+                        "$t": "|oba-catalogus|856942"
+                    },
+                    "frabl": {
+                        "translation": "FRBR Nummer (FRABL)",
+                        "search-method": "frabl",
+                        "search-term": "7CB2463527F478A0",
+                        "search-type": "searcher",
+                        "$t": "7CB2463527F478A0"
+                    },
+                    "detail-page": "http://obaliquid.staging.aquabrowser.nl/detail/I-Vermeeren/%27Eerst-wint-hij-je-totale-vertrouwen-en-dan/Tijdschrift/?itemid=%7coba-catalogus%7c856942",
+                    "coverimages": {
+                        "coverimage": {
+                            "translation": "Cover",
+                            "$t": "~/assets/resources/img/logo-small-ihlia.png?skin=oba"
+                        }
+                    },
+                    "titles": {
+                        "title": {
+                            "translation": "Titel",
+                            "search-method": "title",
+                            "search-term": "'Eerst wint hij je totale vertrouwen en dan blijkt alles gelogen' : meesteroplichter leek lief, rijk en zorgzaam / Iris Vermeeren ; Bastiaan Reuver",
+                            "search-type": "fuzzy",
+                            "$t": "'Eerst wint hij je totale vertrouwen en dan blijkt alles gelogen' : meesteroplichter leek lief, rijk en zorgzaam / Iris Vermeeren ; Bastiaan Reuver"
+                        },
+                        "short-title": {
+                            "translation": "Korte titel",
+                            "$t": "'Eerst wint hij je totale vertrouwen en dan blijkt alles gelogen' : meesteroplichter leek lief, rijk en zorgzaam"
+                        }
+                    },
+                    "authors": {
+                        "main-author": {
+                            "search-method": "author",
+                            "search-term": "I. Vermeeren",
+                            "search-type": "searcher",
+                            "translation": "Auteur (hoofd)",
+                            "firstname": "I.",
+                            "lastname": "Vermeeren",
+                            "creatortype": "person",
+                            "main": "true",
+                            "$t": "Vermeeren, I."
+                        }
+                    },
+                    "formats": {
+                        "format": {
+                            "translation": "Formaat",
+                            "search-method": "format",
+                            "search-term": "magazine",
+                            "search-type": "searcher",
+                            "$t": "magazine"
+                        }
+                    },
+                    "languages": {
+                        "language": {
+                            "translation": "Taal",
+                            "search-method": "language",
+                            "search-term": "dut",
+                            "search-type": "searcher",
+                            "$t": "dut"
+                        }
+                    },
+                    "summaries": {
+                        "summary": {
+                            "translation": "Samenvatting",
+                            "$t": "Interview met een homoman, die het slachtoffer werd van oplichting door zijn vriend."
+                        }
+                    },
+                    "notes": {
+                        "note": {
+                            "translation": "Aantekening",
+                            "$t": "In: Gay Krant; vol./jrg.:"
+                        }
+                    },
+                    "undup-info": {
+                        "key": "|oba-catalogus|856942",
+                        "cnt": "0",
+                        "sort": "title",
+                        "frabl": "7CB2463527F478A0",
+                        "frabl-global-count": "1",
+                        "frabl-key1": "eerst wint hij je totale vertrouwen en dan blijkt alles gelogen meesteroplichter leek lief rijk en zorgzaam",
+                        "frabl-key2": "ivermeeren",
+                        "translation": "Informatie over dubbele items"
+                    }
+                },
+                {
+                    "id": {
+                        "nativeid": "466614",
+                        "ds": "library/v/OBA",
+                        "translation": "ID",
+                        "search-method": "id",
+                        "search-term": "|oba-catalogus|466614",
+                        "search-type": "precise",
+                        "$t": "|oba-catalogus|466614"
+                    },
+                    "frabl": {
+                        "translation": "FRBR Nummer (FRABL)",
+                        "search-method": "frabl",
+                        "search-term": "2C2933C934F36000",
+                        "search-type": "searcher",
+                        "$t": "2C2933C934F36000"
+                    },
+                    "detail-page": "http://obaliquid.staging.aquabrowser.nl/detail/J-Menges/%27Euthanasie%27-in-het-Derde-Rijk/Boek/?itemid=%7coba-catalogus%7c466614",
+                    "coverimages": {
+                        "coverimage": [
+                            {
+                                "translation": "Cover",
+                                "$t": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=830930825&isbn=9789060514528&lid=&aut=&ti=&size=70"
+                            },
+                            {
+                                "translation": "Cover",
+                                "$t": "https://v19.nbc.bibliotheek.nl/thumbnail?uri=http://data.bibliotheek.nl/ggc/ppn/830930825&token=c1322402"
+                            }
+                        ]
+                    },
+                    "titles": {
+                        "title": {
+                            "translation": "Titel",
+                            "search-method": "title",
+                            "search-term": "'Euthanasie' in het Derde Rijk / J. Menges",
+                            "search-type": "fuzzy",
+                            "$t": "'Euthanasie' in het Derde Rijk / J. Menges"
+                        },
+                        "short-title": {
+                            "translation": "Korte titel",
+                            "$t": "'Euthanasie' in het Derde Rijk"
+                        }
+                    },
+                    "authors": {
+                        "main-author": {
+                            "search-method": "author",
+                            "search-term": "J. Menges",
+                            "search-type": "searcher",
+                            "translation": "Auteur (hoofd)",
+                            "firstname": "J.",
+                            "lastname": "Menges",
+                            "creatortype": "person",
+                            "main": "true",
+                            "$t": "Menges, J."
+                        }
+                    },
+                    "formats": {
+                        "format": {
+                            "translation": "Formaat",
+                            "search-method": "format",
+                            "search-term": "book",
+                            "search-type": "searcher",
+                            "$t": "book"
+                        }
+                    },
+                    "identifiers": {
+                        "isbn-id": {
+                            "search-method": "isbn",
+                            "search-term": "9060514521",
+                            "search-type": "searcher",
+                            "translation": "ISBN",
+                            "$t": "9060514521"
+                        },
+                        "ppn-id": {
+                            "search-method": "ppn",
+                            "search-term": "830930825",
+                            "search-type": "precise",
+                            "translation": "PICA productienummer",
+                            "$t": "830930825"
+                        }
+                    },
+                    "publication": {
+                        "year": {
+                            "translation": "Publicatiejaar",
+                            "search-method": "year",
+                            "search-term": "124m",
+                            "search-type": "searcher",
+                            "$t": "1972"
+                        },
+                        "publishers": {
+                            "publisher": {
+                                "translation": "Uitgever",
+                                "search-method": "publisher",
+                                "search-term": "De Erven F. Bohn",
+                                "search-type": "searcher",
+                                "year": "1972 - ix,181 p. 24 cm",
+                                "place": "Haarlem",
+                                "$t": "De Erven F. Bohn"
+                            }
+                        }
+                    },
+                    "classification": {
+                        "translation": "Plaatsingssuggestie",
+                        "siso-code": {
+                            "translation": "SISO",
+                            "search-method": "siso",
+                            "search-term": "SISO: 945.3 Eu-duit",
+                            "search-type": "precise",
+                            "$t": "SISO: 945.3 Eu-duit"
+                        }
+                    },
+                    "notes": {
+                        "note": {
+                            "translation": "Aantekening",
+                            "$t": "Ook verschenen als proefschr. Amsterdam G.U - Met lit.opg"
+                        }
+                    },
+                    "undup-info": {
+                        "key": "|oba-catalogus|466614",
+                        "cnt": "0",
+                        "sort": "title",
+                        "frabl": "2C2933C934F36000",
+                        "frabl-global-count": "1",
+                        "frabl-key1": "euthanasie in het derde rijk",
+                        "frabl-key2": "jmenges",
+                        "translation": "Informatie over dubbele items"
+                    }
+                },
+                {
+                    "id": {
+                        "nativeid": "870787",
+                        "ds": "library/v/OBA",
+                        "translation": "ID",
+                        "search-method": "id",
+                        "search-term": "|oba-catalogus|870787",
+                        "search-type": "precise",
+                        "$t": "|oba-catalogus|870787"
+                    },
+                    "frabl": {
+                        "translation": "FRBR Nummer (FRABL)",
+                        "search-method": "frabl",
+                        "search-term": "313A2D8134F478A0",
+                        "search-type": "searcher",
+                        "$t": "313A2D8134F478A0"
+                    },
+                    "detail-page": "http://obaliquid.staging.aquabrowser.nl/detail/P-van-Liempt/%27Homoseksualiteit-is-geen-ziekte-meer-in-China%27/Tijdschrift/?itemid=%7coba-catalogus%7c870787",
+                    "coverimages": {
+                        "coverimage": {
+                            "translation": "Cover",
+                            "$t": "~/assets/resources/img/logo-small-ihlia.png?skin=oba"
+                        }
+                    },
+                    "titles": {
+                        "title": {
+                            "translation": "Titel",
+                            "search-method": "title",
+                            "search-term": "'Homoseksualiteit is geen ziekte meer in China' / Paul van Liempt",
+                            "search-type": "fuzzy",
+                            "$t": "'Homoseksualiteit is geen ziekte meer in China' / Paul van Liempt"
+                        },
+                        "short-title": {
+                            "translation": "Korte titel",
+                            "$t": "'Homoseksualiteit is geen ziekte meer in China'"
+                        }
+                    },
+                    "authors": {
+                        "main-author": {
+                            "search-method": "author",
+                            "search-term": "P. van Liempt",
+                            "search-type": "searcher",
+                            "translation": "Auteur (hoofd)",
+                            "firstname": "P.",
+                            "lastname": "Liempt",
+                            "preposition": "van",
+                            "creatortype": "person",
+                            "main": "true",
+                            "$t": "van Liempt, P."
+                        }
+                    },
+                    "formats": {
+                        "format": {
+                            "translation": "Formaat",
+                            "search-method": "format",
+                            "search-term": "magazine",
+                            "search-type": "searcher",
+                            "$t": "magazine"
+                        }
+                    },
+                    "languages": {
+                        "language": {
+                            "translation": "Taal",
+                            "search-method": "language",
+                            "search-term": "dut",
+                            "search-type": "searcher",
+                            "$t": "dut"
+                        }
+                    },
+                    "summaries": {
+                        "summary": {
+                            "translation": "Samenvatting",
+                            "$t": "NOS-correspondent Gerrie van Pinxteren schreef een boek, gebaseerd op een tienjarig verblijf in China. Ze beschrijft de nieuwe rijken, bestudeert het onverwerkte verleden en analyseert de Chinese manier van zakendoen. 'Het leveren van streken behoort tot de plaatselijke handelsgewoonten.'"
+                        }
+                    },
+                    "notes": {
+                        "note": {
+                            "translation": "Aantekening",
+                            "$t": "In: Parool; vol./jrg.:"
+                        }
+                    },
+                    "undup-info": {
+                        "key": "|oba-catalogus|870787",
+                        "cnt": "0",
+                        "sort": "title",
+                        "frabl": "313A2D8134F478A0",
+                        "frabl-global-count": "1",
+                        "frabl-key1": "homoseksualiteit is geen ziekte meer in china",
+                        "frabl-key2": "pvan liempt",
+                        "translation": "Informatie over dubbele items"
+                    }
+                },
+                {
+                    "id": {
+                        "nativeid": "864563",
+                        "ds": "library/v/OBA",
+                        "translation": "ID",
+                        "search-method": "id",
+                        "search-term": "|oba-catalogus|864563",
+                        "search-type": "precise",
+                        "$t": "|oba-catalogus|864563"
+                    },
+                    "frabl": {
+                        "translation": "FRBR Nummer (FRABL)",
+                        "search-method": "frabl",
+                        "search-term": "7FBA754DF6F478A0",
+                        "search-type": "searcher",
+                        "$t": "7FBA754DF6F478A0"
+                    },
+                    "detail-page": "http://obaliquid.staging.aquabrowser.nl/detail/R-van-den-Sanden/%27Ik-ben-een-zondagskind%27/Tijdschrift/?itemid=%7coba-catalogus%7c864563",
+                    "coverimages": {
+                        "coverimage": {
+                            "translation": "Cover",
+                            "$t": "~/assets/resources/img/logo-small-ihlia.png?skin=oba"
+                        }
+                    },
+                    "titles": {
+                        "title": {
+                            "translation": "Titel",
+                            "search-method": "title",
+                            "search-term": "'Ik ben een zondagskind' / Robert van der Sanden ; Wim Rijken",
+                            "search-type": "fuzzy",
+                            "$t": "'Ik ben een zondagskind' / Robert van der Sanden ; Wim Rijken"
+                        },
+                        "short-title": {
+                            "translation": "Korte titel",
+                            "$t": "'Ik ben een zondagskind'"
+                        }
+                    },
+                    "authors": {
+                        "main-author": {
+                            "search-method": "author",
+                            "search-term": "R. van den Sanden",
+                            "search-type": "searcher",
+                            "translation": "Auteur (hoofd)",
+                            "firstname": "R.",
+                            "lastname": "Sanden",
+                            "preposition": "van den",
+                            "creatortype": "person",
+                            "main": "true",
+                            "$t": "van den Sanden, R."
+                        }
+                    },
+                    "formats": {
+                        "format": {
+                            "translation": "Formaat",
+                            "search-method": "format",
+                            "search-term": "magazine",
+                            "search-type": "searcher",
+                            "$t": "magazine"
+                        }
+                    },
+                    "languages": {
+                        "language": {
+                            "translation": "Taal",
+                            "search-method": "language",
+                            "search-term": "dut",
+                            "search-type": "searcher",
+                            "$t": "dut"
+                        }
+                    },
+                    "summaries": {
+                        "summary": {
+                            "translation": "Samenvatting",
+                            "$t": "Interview met zanger Wim Rijken o.a. over de samenwerking met Conny Vandenbos en zijn homoseksualiteit dat voor hem geen issue is."
+                        }
+                    },
+                    "notes": {
+                        "note": {
+                            "translation": "Aantekening",
+                            "$t": "In: Gay and Night; vol./jrg.:"
+                        }
+                    },
+                    "undup-info": {
+                        "key": "|oba-catalogus|864563",
+                        "cnt": "0",
+                        "sort": "title",
+                        "frabl": "7FBA754DF6F478A0",
+                        "frabl-global-count": "1",
+                        "frabl-key1": "ik ben een zondagskind",
+                        "frabl-key2": "rvan den sanden",
+                        "translation": "Informatie over dubbele items"
+                    }
+                },
+                {
+                    "id": {
+                        "nativeid": "858550",
+                        "ds": "library/v/OBA",
+                        "translation": "ID",
+                        "search-method": "id",
+                        "search-term": "|oba-catalogus|858550",
+                        "search-type": "precise",
+                        "$t": "|oba-catalogus|858550"
+                    },
+                    "frabl": {
+                        "translation": "FRBR Nummer (FRABL)",
+                        "search-method": "frabl",
+                        "search-term": "565F9AE4AFF478A0",
+                        "search-type": "searcher",
+                        "$t": "565F9AE4AFF478A0"
+                    },
+                    "detail-page": "http://obaliquid.staging.aquabrowser.nl/detail/I-Moelans/%27Ik-heb-tien-jaar-van-mijn-leven-aan-de/Tijdschrift/?itemid=%7coba-catalogus%7c858550",
+                    "coverimages": {
+                        "coverimage": {
+                            "translation": "Cover",
+                            "$t": "~/assets/resources/img/logo-small-ihlia.png?skin=oba"
+                        }
+                    },
+                    "titles": {
+                        "title": {
+                            "translation": "Titel",
+                            "search-method": "title",
+                            "search-term": "'Ik heb tien jaar van mijn leven aan de homobeweging gegeven en daar ben ik echt niet rijk van geworden' : Uitkomst sprak met Ludo Smits / Ivo Moelans ; Ludo Smits",
+                            "search-type": "fuzzy",
+                            "$t": "'Ik heb tien jaar van mijn leven aan de homobeweging gegeven en daar ben ik echt niet rijk van geworden' : Uitkomst sprak met Ludo Smits / Ivo Moelans ; Ludo Smits"
+                        },
+                        "short-title": {
+                            "translation": "Korte titel",
+                            "$t": "'Ik heb tien jaar van mijn leven aan de homobeweging gegeven en daar ben ik echt niet rijk van geworden' : Uitkomst sprak met Ludo Smits"
+                        }
+                    },
+                    "authors": {
+                        "main-author": {
+                            "search-method": "author",
+                            "search-term": "I. Moelans",
+                            "search-type": "searcher",
+                            "translation": "Auteur (hoofd)",
+                            "firstname": "I.",
+                            "lastname": "Moelans",
+                            "creatortype": "person",
+                            "main": "true",
+                            "$t": "Moelans, I."
+                        }
+                    },
+                    "formats": {
+                        "format": {
+                            "translation": "Formaat",
+                            "search-method": "format",
+                            "search-term": "magazine",
+                            "search-type": "searcher",
+                            "$t": "magazine"
+                        }
+                    },
+                    "languages": {
+                        "language": {
+                            "translation": "Taal",
+                            "search-method": "language",
+                            "search-term": "dut",
+                            "search-type": "searcher",
+                            "$t": "dut"
+                        }
+                    },
+                    "summaries": {
+                        "summary": {
+                            "translation": "Samenvatting",
+                            "$t": "Interview met een Vlaamse homoman over zijn vrijwilligerswerk bij de Vlaamse homo-organisatie GOC en zijn commerciele initiatieven, de homoclubs Hessenhuis en Red&Blue. Hij ziet het commerciele succes van zijn zaken als een teken van volwassenwording van de homogemeenscap."
+                        }
+                    },
+                    "notes": {
+                        "note": {
+                            "translation": "Aantekening",
+                            "$t": "In: Uitkomst; vol./jrg.:"
+                        }
+                    },
+                    "undup-info": {
+                        "key": "|oba-catalogus|858550",
+                        "cnt": "0",
+                        "sort": "title",
+                        "frabl": "565F9AE4AFF478A0",
+                        "frabl-global-count": "1",
+                        "frabl-key1": "ik heb tien jaar van mijn leven aan de homobeweging gegeven en daar ben ik echt niet rijk van geworden uitkomst sprak met ludo smits",
+                        "frabl-key2": "imoelans",
+                        "translation": "Informatie over dubbele items"
+                    }
+                },
+                {
+                    "id": {
+                        "nativeid": "854954",
+                        "ds": "library/v/OBA",
+                        "translation": "ID",
+                        "search-method": "id",
+                        "search-term": "|oba-catalogus|854954",
+                        "search-type": "precise",
+                        "$t": "|oba-catalogus|854954"
+                    },
+                    "frabl": {
+                        "translation": "FRBR Nummer (FRABL)",
+                        "search-method": "frabl",
+                        "search-term": "1AFB164842F478A0",
+                        "search-type": "searcher",
+                        "$t": "1AFB164842F478A0"
+                    },
+                    "detail-page": "http://obaliquid.staging.aquabrowser.nl/detail/J-Bouma/%27Ik-houd-zelf-eigenlijk-helemaal-niet-van/Tijdschrift/?itemid=%7coba-catalogus%7c854954",
+                    "coverimages": {
+                        "coverimage": {
+                            "translation": "Cover",
+                            "$t": "~/assets/resources/img/logo-small-ihlia.png?skin=oba"
+                        }
+                    },
+                    "titles": {
+                        "title": {
+                            "translation": "Titel",
+                            "search-method": "title",
+                            "search-term": "'Ik houd zelf eigenlijk helemaal niet van aanstellerij' / Japke-D. Bouma ; Paul Haenen",
+                            "search-type": "fuzzy",
+                            "$t": "'Ik houd zelf eigenlijk helemaal niet van aanstellerij' / Japke-D. Bouma ; Paul Haenen"
+                        },
+                        "short-title": {
+                            "translation": "Korte titel",
+                            "$t": "'Ik houd zelf eigenlijk helemaal niet van aanstellerij'"
+                        }
+                    },
+                    "authors": {
+                        "main-author": {
+                            "search-method": "author",
+                            "search-term": "J. Bouma",
+                            "search-type": "searcher",
+                            "translation": "Auteur (hoofd)",
+                            "firstname": "J.",
+                            "lastname": "Bouma",
+                            "creatortype": "person",
+                            "main": "true",
+                            "$t": "Bouma, J."
+                        }
+                    },
+                    "formats": {
+                        "format": {
+                            "translation": "Formaat",
+                            "search-method": "format",
+                            "search-term": "magazine",
+                            "search-type": "searcher",
+                            "$t": "magazine"
+                        }
+                    },
+                    "languages": {
+                        "language": {
+                            "translation": "Taal",
+                            "search-method": "language",
+                            "search-term": "dut",
+                            "search-type": "searcher",
+                            "$t": "dut"
+                        }
+                    },
+                    "summaries": {
+                        "summary": {
+                            "translation": "Samenvatting",
+                            "$t": "Interview met de cabaretier, radio- en televisiemaker, acteur en toneelschrijver n.a.v. zijn tv-programma 'Dolman onder de rijken'."
+                        }
+                    },
+                    "notes": {
+                        "note": {
+                            "translation": "Aantekening",
+                            "$t": "In: NRC; vol./jrg.:"
+                        }
+                    },
+                    "undup-info": {
+                        "key": "|oba-catalogus|854954",
+                        "cnt": "0",
+                        "sort": "title",
+                        "frabl": "1AFB164842F478A0",
+                        "frabl-global-count": "1",
+                        "frabl-key1": "ik houd zelf eigenlijk helemaal niet van aanstellerij",
+                        "frabl-key2": "jbouma",
+                        "translation": "Informatie over dubbele items"
+                    }
+                },
+                {
+                    "id": {
+                        "nativeid": "857360",
+                        "ds": "library/v/OBA",
+                        "translation": "ID",
+                        "search-method": "id",
+                        "search-term": "|oba-catalogus|857360",
+                        "search-type": "precise",
+                        "$t": "|oba-catalogus|857360"
+                    },
+                    "frabl": {
+                        "translation": "FRBR Nummer (FRABL)",
+                        "search-method": "frabl",
+                        "search-term": "71C44D50F478A0",
+                        "search-type": "searcher",
+                        "$t": "71C44D50F478A0"
+                    },
+                    "detail-page": "http://obaliquid.staging.aquabrowser.nl/detail/M-Dellen/%27Ik-moet-bloeden-en-lijden-om-gehoord-te/Tijdschrift/?itemid=%7coba-catalogus%7c857360",
+                    "coverimages": {
+                        "coverimage": {
+                            "translation": "Cover",
+                            "$t": "~/assets/resources/img/logo-small-ihlia.png?skin=oba"
+                        }
+                    },
+                    "titles": {
+                        "title": {
+                            "translation": "Titel",
+                            "search-method": "title",
+                            "search-term": "'Ik moet bloeden en lijden om gehoord te worden' : Lucia Rijker en de gerechtigheid / Mascha Dellen ; Lucia Rijker",
+                            "search-type": "fuzzy",
+                            "$t": "'Ik moet bloeden en lijden om gehoord te worden' : Lucia Rijker en de gerechtigheid / Mascha Dellen ; Lucia Rijker"
+                        },
+                        "short-title": {
+                            "translation": "Korte titel",
+                            "$t": "'Ik moet bloeden en lijden om gehoord te worden' : Lucia Rijker en de gerechtigheid"
+                        }
+                    },
+                    "authors": {
+                        "main-author": {
+                            "search-method": "author",
+                            "search-term": "M. Dellen",
+                            "search-type": "searcher",
+                            "translation": "Auteur (hoofd)",
+                            "firstname": "M.",
+                            "lastname": "Dellen",
+                            "creatortype": "person",
+                            "main": "true",
+                            "$t": "Dellen, M."
+                        }
+                    },
+                    "formats": {
+                        "format": {
+                            "translation": "Formaat",
+                            "search-method": "format",
+                            "search-term": "magazine",
+                            "search-type": "searcher",
+                            "$t": "magazine"
+                        }
+                    },
+                    "languages": {
+                        "language": {
+                            "translation": "Taal",
+                            "search-method": "language",
+                            "search-term": "dut",
+                            "search-type": "searcher",
+                            "$t": "dut"
+                        }
+                    },
+                    "summaries": {
+                        "summary": {
+                            "translation": "Samenvatting",
+                            "$t": "Voorpublicatie uit 'De boksende boeddhiste en andere zoekers naar zingeving' (Zutphen, Plataan, 1998), waarin de viervoudig wereldkampioene kickboksen en boeddhiste beweert van mannen en vrouwen te houden."
+                        }
+                    },
+                    "notes": {
+                        "note": {
+                            "translation": "Aantekening",
+                            "$t": "In: VN; vol./jrg.:"
+                        }
+                    },
+                    "undup-info": {
+                        "key": "|oba-catalogus|857360",
+                        "cnt": "0",
+                        "sort": "title",
+                        "frabl": "71C44D50F478A0",
+                        "frabl-global-count": "1",
+                        "frabl-key1": "ik moet bloeden en lijden om gehoord te worden lucia rijker en de gerechtigheid",
+                        "frabl-key2": "mdellen",
+                        "translation": "Informatie over dubbele items"
+                    }
+                },
+                {
+                    "id": {
+                        "nativeid": "820654",
+                        "ds": "library/v/OBA",
+                        "translation": "ID",
+                        "search-method": "id",
+                        "search-term": "|oba-catalogus|820654",
+                        "search-type": "precise",
+                        "$t": "|oba-catalogus|820654"
+                    },
+                    "frabl": {
+                        "translation": "FRBR Nummer (FRABL)",
+                        "search-method": "frabl",
+                        "search-term": "BBB708E43F478B8",
+                        "search-type": "searcher",
+                        "$t": "BBB708E43F478B8"
+                    },
+                    "detail-page": "http://obaliquid.staging.aquabrowser.nl/detail/Chille-Deman/%27Je-ne-suis-pas-le-seul-commercant-homo-qui/Tijdschrift/?itemid=%7coba-catalogus%7c820654",
+                    "coverimages": {
+                        "coverimage": {
+                            "translation": "Cover",
+                            "$t": "~/assets/resources/img/logo-small-ihlia.png?skin=oba"
+                        }
+                    },
+                    "titles": {
+                        "title": {
+                            "translation": "Titel",
+                            "search-method": "title",
+                            "search-term": "'Je ne suis pas le seul commerçant homo qui peut donner du soutien au mouvement' / Chille Deman ; Louis Maes",
+                            "search-type": "fuzzy",
+                            "$t": "'Je ne suis pas le seul commerçant homo qui peut donner du soutien au mouvement' / Chille Deman ; Louis Maes"
+                        },
+                        "short-title": {
+                            "translation": "Korte titel",
+                            "$t": "'Je ne suis pas le seul commerçant homo qui peut donner du soutien au mouvement'"
+                        }
+                    },
+                    "authors": {
+                        "main-author": {
+                            "search-method": "author",
+                            "search-term": "Chille. Deman",
+                            "search-type": "searcher",
+                            "translation": "Auteur (hoofd)",
+                            "firstname": "Chille.",
+                            "lastname": "Deman",
+                            "creatortype": "person",
+                            "main": "true",
+                            "$t": "Deman, Chille."
+                        }
+                    },
+                    "formats": {
+                        "format": {
+                            "translation": "Formaat",
+                            "search-method": "format",
+                            "search-term": "magazine",
+                            "search-type": "searcher",
+                            "$t": "magazine"
+                        }
+                    },
+                    "languages": {
+                        "language": {
+                            "translation": "Taal",
+                            "search-method": "language",
+                            "search-term": "fre",
+                            "search-type": "searcher",
+                            "$t": "fre"
+                        }
+                    },
+                    "summaries": {
+                        "summary": {
+                            "translation": "Samenvatting",
+                            "$t": "De eigenaar van  het Brusselse café 'Rijk der Zinnen' vertelt over zijn financiële steun aan verschillende projecten binnen de homobeweging."
+                        }
+                    },
+                    "notes": {
+                        "note": {
+                            "translation": "Aantekening",
+                            "$t": "In: Tels Quels; vol./jrg.:"
+                        }
+                    },
+                    "undup-info": {
+                        "key": "|oba-catalogus|820654",
+                        "cnt": "0",
+                        "sort": "title",
+                        "frabl": "BBB708E43F478B8",
+                        "frabl-global-count": "1",
+                        "frabl-key1": "je ne suis pas le seul commercant homo qui peut donner du soutien au mouvement",
+                        "frabl-key2": "chilledeman",
+                        "translation": "Informatie over dubbele items"
+                    }
+                },
+                {
+                    "id": {
+                        "nativeid": "791802",
+                        "ds": "library/v/OBA",
+                        "translation": "ID",
+                        "search-method": "id",
+                        "search-term": "|oba-catalogus|791802",
+                        "search-type": "precise",
+                        "$t": "|oba-catalogus|791802"
+                    },
+                    "frabl": {
+                        "translation": "FRBR Nummer (FRABL)",
+                        "search-method": "frabl",
+                        "search-term": "781F2E5574F360A0",
+                        "search-type": "searcher",
+                        "$t": "781F2E5574F360A0"
+                    },
+                    "detail-page": "http://obaliquid.staging.aquabrowser.nl/detail/Wim-Kops/%27s-Hertogenbosch-een-rijke-roerige-en/Boek/?itemid=%7coba-catalogus%7c791802",
+                    "coverimages": {
+                        "coverimage": [
+                            {
+                                "translation": "Cover",
+                                "$t": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=304181625&isbn=9789086800629&lid=&aut=&ti=&size=70"
+                            },
+                            {
+                                "translation": "Cover",
+                                "$t": "https://v19.nbc.bibliotheek.nl/thumbnail?uri=http://data.bibliotheek.nl/ggc/ppn/304181625&token=c1322402"
+                            }
+                        ]
+                    },
+                    "titles": {
+                        "title": {
+                            "translation": "Titel",
+                            "search-method": "title",
+                            "search-term": "'s-Hertogenbosch : een rijke, roerige en roemruchte historie / Wim Kops",
+                            "search-type": "fuzzy",
+                            "$t": "'s-Hertogenbosch : een rijke, roerige en roemruchte historie / Wim Kops"
+                        },
+                        "short-title": {
+                            "translation": "Korte titel",
+                            "$t": "'s-Hertogenbosch : een rijke, roerige en roemruchte historie"
+                        },
+                        "subtitle": {
+                            "translation": "Sub titel",
+                            "$t": "een rijke, roerige en roemruchte historie"
+                        }
+                    },
+                    "authors": {
+                        "main-author": {
+                            "search-method": "author",
+                            "search-term": "Wim Kops",
+                            "search-type": "searcher",
+                            "translation": "Auteur (hoofd)",
+                            "firstname": "Wim",
+                            "lastname": "Kops",
+                            "creatortype": "person",
+                            "main": "true",
+                            "$t": "Kops, Wim"
+                        }
+                    },
+                    "formats": {
+                        "format": {
+                            "translation": "Formaat",
+                            "search-method": "format",
+                            "search-term": "book",
+                            "search-type": "searcher",
+                            "$t": "book"
+                        }
+                    },
+                    "identifiers": {
+                        "isbn-id": {
+                            "search-method": "isbn",
+                            "search-term": "9789086800629",
+                            "search-type": "searcher",
+                            "translation": "ISBN",
+                            "$t": "9789086800629"
+                        },
+                        "ppn-id": {
+                            "search-method": "ppn",
+                            "search-term": "304181625",
+                            "search-type": "precise",
+                            "translation": "PICA productienummer",
+                            "$t": "304181625"
+                        }
+                    },
+                    "publication": {
+                        "year": {
+                            "translation": "Publicatiejaar",
+                            "search-method": "year",
+                            "search-term": "2007",
+                            "search-type": "searcher",
+                            "$t": "2007"
+                        },
+                        "publishers": {
+                            "publisher": {
+                                "translation": "Uitgever",
+                                "search-method": "publisher",
+                                "search-term": "Heinen]",
+                                "search-type": "searcher",
+                                "year": "2007",
+                                "place": "['s-Hertogenbosch",
+                                "$t": "Heinen]"
+                            }
+                        },
+                        "editions": {
+                            "edition": {
+                                "translation": "Editie",
+                                "$t": "1e ed"
+                            }
+                        }
+                    },
+                    "classification": {
+                        "translation": "Plaatsingssuggestie",
+                        "siso-code": [
+                            {
+                                "translation": "SISO",
+                                "search-method": "siso",
+                                "search-term": "Noord-Brabant",
+                                "search-type": "precise",
+                                "$t": "Noord-Brabant"
+                            },
+                            {
+                                "translation": "SISO",
+                                "search-method": "siso",
+                                "search-term": "'s-Hertogenbosch 938.1",
+                                "search-type": "precise",
+                                "$t": "'s-Hertogenbosch 938.1"
+                            }
+                        ]
+                    },
+                    "languages": {
+                        "language": {
+                            "translation": "Taal",
+                            "search-method": "language",
+                            "search-term": "dut",
+                            "search-type": "searcher",
+                            "$t": "dut"
+                        }
+                    },
+                    "subjects": {
+                        "topical-subject": [
+                            {
+                                "translation": "Onderwerp",
+                                "search-method": "subject",
+                                "search-term": "'s-Hertogenbosch",
+                                "search-type": "fuzzy",
+                                "$t": "'s-Hertogenbosch"
+                            },
+                            {
+                                "translation": "Onderwerp",
+                                "search-method": "subject",
+                                "search-term": "Geschiedenis",
+                                "search-type": "fuzzy",
+                                "$t": "Geschiedenis"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "physical-description": {
+                            "translation": "Kenmerken",
+                            "$t": "143 p: ill ; 24 cm"
+                        }
+                    },
+                    "summaries": {
+                        "summary": {
+                            "translation": "Samenvatting",
+                            "$t": "Beknopte geschiedenis van de Noord-Brabantse hoofdstad."
+                        }
+                    },
+                    "undup-info": {
+                        "key": "|oba-catalogus|791802",
+                        "cnt": "0",
+                        "sort": "title",
+                        "frabl": "781F2E5574F360A0",
+                        "frabl-global-count": "1",
+                        "frabl-key1": "s hertogenbosch een rijke roerige en roemruchte historie",
+                        "frabl-key2": "wim kops",
+                        "translation": "Informatie over dubbele items"
+                    }
+                },
+                {
+                    "id": {
+                        "nativeid": "279038",
+                        "ds": "library/v/OBA",
+                        "translation": "ID",
+                        "search-method": "id",
+                        "search-term": "|oba-catalogus|279038",
+                        "search-type": "precise",
+                        "$t": "|oba-catalogus|279038"
+                    },
+                    "frabl": {
+                        "translation": "FRBR Nummer (FRABL)",
+                        "search-method": "frabl",
+                        "search-term": "71B6D878ECF360C7",
+                        "search-type": "searcher",
+                        "$t": "71B6D878ECF360C7"
+                    },
+                    "detail-page": "http://obaliquid.staging.aquabrowser.nl/detail/Albert-Speer/%22-Alles-was-ich-weiss%22-aus-unbekannten/Boek/?itemid=%7coba-catalogus%7c279038",
+                    "coverimages": {
+                        "coverimage": [
+                            {
+                                "translation": "Cover",
+                                "$t": "https://cover.biblion.nl/coverlist.dll?doctype=morebutton&bibliotheek=oba&style=0&ppn=18358483X&isbn=9783776620924&lid=&aut=&ti=&size=70"
+                            },
+                            {
+                                "translation": "Cover",
+                                "$t": "https://v19.nbc.bibliotheek.nl/thumbnail?uri=http://data.bibliotheek.nl/ggc/ppn/18358483X&token=c1322402"
+                            }
+                        ]
+                    },
+                    "titles": {
+                        "title": {
+                            "translation": "Titel",
+                            "search-method": "title",
+                            "search-term": "\" Alles, was ich weiss\" : aus unbekannten Geheimdienstprotokollen vom Sommer 1945 / Albert Speer ; mit einem Bericht \"Frauen um Hitler\" von Karl Brandt ; hrsg. von Ulrich Schlie",
+                            "search-type": "fuzzy",
+                            "$t": "\" Alles, was ich weiss\" : aus unbekannten Geheimdienstprotokollen vom Sommer 1945 / Albert Speer ; mit einem Bericht \"Frauen um Hitler\" von Karl Brandt ; hrsg. von Ulrich Schlie"
+                        },
+                        "short-title": {
+                            "translation": "Korte titel",
+                            "$t": "\" Alles, was ich weiss\" : aus unbekannten Geheimdienstprotokollen vom Sommer 1945"
+                        },
+                        "subtitle": {
+                            "translation": "Sub titel",
+                            "$t": "aus unbekannten Geheimdienstprotokollen vom Sommer 1945"
+                        },
+                        "other-title": {
+                            "translation": "Andere titel",
+                            "$t": "Frauen um Hitler"
+                        }
+                    },
+                    "authors": {
+                        "main-author": {
+                            "search-method": "author",
+                            "search-term": "Albert Speer",
+                            "search-type": "searcher",
+                            "translation": "Auteur (hoofd)",
+                            "firstname": "Albert",
+                            "lastname": "Speer",
+                            "creatortype": "person",
+                            "main": "true",
+                            "$t": "Speer, Albert"
+                        },
+                        "author": [
+                            {
+                                "search-method": "author",
+                                "search-term": "Karl Brandt",
+                                "search-type": "searcher",
+                                "translation": "Auteur",
+                                "creatortype": "organization",
+                                "$t": "Karl Brandt"
+                            },
+                            {
+                                "search-method": "author",
+                                "search-term": "Ulrich Schlie",
+                                "search-type": "searcher",
+                                "translation": "Auteur",
+                                "creatortype": "organization",
+                                "$t": "Ulrich Schlie"
+                            }
+                        ]
+                    },
+                    "formats": {
+                        "format": {
+                            "translation": "Formaat",
+                            "search-method": "format",
+                            "search-term": "book",
+                            "search-type": "searcher",
+                            "$t": "book"
+                        }
+                    },
+                    "identifiers": {
+                        "isbn-id": {
+                            "search-method": "isbn",
+                            "search-term": "3776620927",
+                            "search-type": "searcher",
+                            "translation": "ISBN",
+                            "$t": "3776620927"
+                        },
+                        "ppn-id": {
+                            "search-method": "ppn",
+                            "search-term": "18358483X",
+                            "search-type": "precise",
+                            "translation": "PICA productienummer",
+                            "$t": "18358483X"
+                        }
+                    },
+                    "publication": {
+                        "year": {
+                            "translation": "Publicatiejaar",
+                            "search-method": "year",
+                            "search-term": "1999",
+                            "search-type": "searcher",
+                            "$t": "1999"
+                        },
+                        "publishers": {
+                            "publisher": {
+                                "translation": "Uitgever",
+                                "search-method": "publisher",
+                                "search-term": "Herbig",
+                                "search-type": "searcher",
+                                "year": "1999",
+                                "place": "München",
+                                "$t": "Herbig"
+                            }
+                        }
+                    },
+                    "classification": {
+                        "translation": "Plaatsingssuggestie",
+                        "siso-code": {
+                            "translation": "SISO",
+                            "search-method": "siso",
+                            "search-term": "eu-duit 945.3",
+                            "search-type": "precise",
+                            "$t": "eu-duit 945.3"
+                        }
+                    },
+                    "languages": {
+                        "language": {
+                            "translation": "Taal",
+                            "search-method": "language",
+                            "search-term": "ger",
+                            "search-type": "searcher",
+                            "$t": "ger"
+                        }
+                    },
+                    "subjects": {
+                        "topical-subject": [
+                            {
+                                "translation": "Onderwerp",
+                                "search-method": "subject",
+                                "search-term": "Interviews",
+                                "search-type": "fuzzy",
+                                "$t": "Interviews"
+                            },
+                            {
+                                "translation": "Onderwerp",
+                                "search-method": "subject",
+                                "search-term": "Derde Rijk",
+                                "search-type": "fuzzy",
+                                "$t": "Derde Rijk"
+                            },
+                            {
+                                "translation": "Onderwerp",
+                                "search-method": "subject",
+                                "search-term": "Speer, Albert",
+                                "search-type": "fuzzy",
+                                "$t": "Speer, Albert"
+                            }
+                        ]
+                    },
+                    "description": {
+                        "physical-description": {
+                            "translation": "Kenmerken",
+                            "$t": "320 p., [16] p. pl: ill ; 23 cm"
+                        }
+                    },
+                    "notes": {
+                        "note": {
+                            "translation": "Aantekening",
+                            "$t": "Met lit. opg. en index"
+                        }
+                    },
+                    "undup-info": {
+                        "key": "|oba-catalogus|279038",
+                        "cnt": "0",
+                        "sort": "title",
+                        "frabl": "71B6D878ECF360C7",
+                        "frabl-global-count": "1",
+                        "frabl-key1": "alles was ich weiss aus unbekannten geheimdienstprotokollen vom sommer 1945",
+                        "frabl-key2": "albert speer",
+                        "translation": "Informatie over dubbele items"
+                    }
+                },
+                {
+                    "id": {
+                        "nativeid": "collection.37642",
+                        "ds": "misc/adamnet",
+                        "translation": "ID",
+                        "search-method": "id",
+                        "search-term": "|misc/adamnet|collection.37642",
+                        "search-type": "precise",
+                        "$t": "|misc/adamnet|collection.37642"
+                    },
+                    "frabl": {
+                        "translation": "FRBR Nummer (FRABL)",
+                        "search-method": "frabl",
+                        "search-term": "",
+                        "search-type": "searcher"
+                    },
+                    "detail-page": "http://obaliquid.staging.aquabrowser.nl/detail/Andreas-Achenbach/%22Een-watermolen-in-een-boomrijk-landschap-bij/Schilderij/?itemid=%7cmisc%2fadamnet%7ccollection.37642",
+                    "coverimages": {
+                        "coverimage": {
+                            "translation": "Cover",
+                            "$t": "http://amasp.adlibhosting.com/wwwopacx_images/wwwopac.ashx?command=getcontent&server=images&value=SA_961.JPG"
+                        }
+                    },
+                    "titles": {
+                        "title": [
+                            {
+                                "translation": "Titel",
+                                "search-method": "title",
+                                "search-term": "\"Een watermolen in een boomrijk landschap bij regenachtig weder\"",
+                                "search-type": "fuzzy",
+                                "$t": "\"Een watermolen in een boomrijk landschap bij regenachtig weder\""
+                            },
+                            {
+                                "translation": "Titel",
+                                "search-method": "title",
+                                "search-term": "Een watermolen in een boomrijk landschap bij regenachtig weer",
+                                "search-type": "fuzzy",
+                                "$t": "Een watermolen in een boomrijk landschap bij regenachtig weer"
+                            }
+                        ]
+                    },
+                    "authors": {
+                        "main-author": {
+                            "search-method": "author",
+                            "search-term": "Andreas Achenbach",
+                            "search-type": "searcher",
+                            "translation": "Auteur (hoofd)",
+                            "main": "true",
+                            "$t": "Achenbach, Andreas"
+                        }
+                    },
+                    "formats": {
+                        "format": {
+                            "translation": "Formaat",
+                            "search-method": "format",
+                            "search-term": "Painting",
+                            "search-type": "searcher",
+                            "$t": "Painting"
+                        }
+                    },
+                    "eresources": {
+                        "eresource": {
+                            "type": "website",
+                            "url": "http://hdl.handle.net/11259/collection.37642",
+                            "translation": "Website"
+                        }
+                    },
+                    "languages": {
+                        "language": {
+                            "translation": "Taal",
+                            "search-method": "language",
+                            "search-term": "dut",
+                            "search-type": "searcher",
+                            "$t": "dut"
+                        }
+                    },
+                    "subjects": {
+                        "subject": {
+                            "translation": "Onderwerp",
+                            "search-method": "subject",
+                            "search-term": "landschap",
+                            "search-type": "fuzzy",
+                            "$t": "landschap"
+                        }
+                    },
+                    "summaries": {
+                        "summary": {
+                            "translation": "Samenvatting",
+                            "$t": "Met het schilderen van landschappen en stadsgezichten behaalde de Duitser Andreas Achenbach grote successen op tentoonstellingen in binnen- en buitenland. De invloed van Nederlandse 17de-eeuwse landschapschilders is duidelijk zichtbaar in de halfbewolkte lucht en het verzadigd groen van de omgeving."
+                        }
+                    },
+                    "undup-info": {
+                        "key": "|misc/adamnet|collection.37642",
+                        "cnt": "0",
+                        "sort": "title",
+                        "frabl": "",
+                        "frabl-global-count": "",
+                        "frabl-key1": "",
+                        "frabl-key2": "",
+                        "translation": "Informatie over dubbele items"
+                    }
+                },
+                {
+                    "id": {
+                        "nativeid": "collection.37936",
+                        "ds": "misc/adamnet",
+                        "translation": "ID",
+                        "search-method": "id",
+                        "search-term": "|misc/adamnet|collection.37936",
+                        "search-type": "precise",
+                        "$t": "|misc/adamnet|collection.37936"
+                    },
+                    "frabl": {
+                        "translation": "FRBR Nummer (FRABL)",
+                        "search-method": "frabl",
+                        "search-term": "",
+                        "search-type": "searcher"
+                    },
+                    "detail-page": "http://obaliquid.staging.aquabrowser.nl/detail/Georgius-Jacobus-Johannes-van-Os/%22Eene-rijke-compositie-van-rozen-en-andere/Schilderij/?itemid=%7cmisc%2fadamnet%7ccollection.37936",
+                    "coverimages": {
+                        "coverimage": {
+                            "translation": "Cover",
+                            "$t": "http://amasp.adlibhosting.com/wwwopacx_images/wwwopac.ashx?command=getcontent&server=images&value=Sa_2142.jpg"
+                        }
+                    },
+                    "titles": {
+                        "title": [
+                            {
+                                "translation": "Titel",
+                                "search-method": "title",
+                                "search-term": "\"Eene rijke compositie van rozen en andere bloemen\"",
+                                "search-type": "fuzzy",
+                                "$t": "\"Eene rijke compositie van rozen en andere bloemen\""
+                            },
+                            {
+                                "translation": "Titel",
+                                "search-method": "title",
+                                "search-term": "Een rijke compositie van rozen en andere bloemen",
+                                "search-type": "fuzzy",
+                                "$t": "Een rijke compositie van rozen en andere bloemen"
+                            }
+                        ]
+                    },
+                    "authors": {
+                        "main-author": {
+                            "search-method": "author",
+                            "search-term": "Georgius Jacobus Johannes van Os",
+                            "search-type": "searcher",
+                            "translation": "Auteur (hoofd)",
+                            "main": "true",
+                            "$t": "van Os, Georgius Jacobus Johannes"
+                        }
+                    },
+                    "formats": {
+                        "format": {
+                            "translation": "Formaat",
+                            "search-method": "format",
+                            "search-term": "Painting",
+                            "search-type": "searcher",
+                            "$t": "Painting"
+                        }
+                    },
+                    "eresources": {
+                        "eresource": {
+                            "type": "website",
+                            "url": "http://hdl.handle.net/11259/collection.37936",
+                            "translation": "Website"
+                        }
+                    },
+                    "languages": {
+                        "language": {
+                            "translation": "Taal",
+                            "search-method": "language",
+                            "search-term": "dut",
+                            "search-type": "searcher",
+                            "$t": "dut"
+                        }
+                    },
+                    "subjects": {
+                        "subject": [
+                            {
+                                "translation": "Onderwerp",
+                                "search-method": "subject",
+                                "search-term": "bloemstilleven",
+                                "search-type": "fuzzy",
+                                "$t": "bloemstilleven"
+                            },
+                            {
+                                "translation": "Onderwerp",
+                                "search-method": "subject",
+                                "search-term": "stilleven",
+                                "search-type": "fuzzy",
+                                "$t": "stilleven"
+                            }
+                        ]
+                    },
+                    "summaries": {
+                        "summary": {
+                            "translation": "Samenvatting"
+                        }
+                    },
+                    "undup-info": {
+                        "key": "|misc/adamnet|collection.37936",
+                        "cnt": "0",
+                        "sort": "title",
+                        "frabl": "",
+                        "frabl-global-count": "",
+                        "frabl-key1": "",
+                        "frabl-key2": "",
+                        "translation": "Informatie over dubbele items"
+                    }
+                },
+                {
+                    "id": {
+                        "nativeid": "836209",
+                        "ds": "library/v/OBA",
+                        "translation": "ID",
+                        "search-method": "id",
+                        "search-term": "|oba-catalogus|836209",
+                        "search-type": "precise",
+                        "$t": "|oba-catalogus|836209"
+                    },
+                    "frabl": {
+                        "translation": "FRBR Nummer (FRABL)",
+                        "search-method": "frabl",
+                        "search-term": "17F58BDCDE1478A0",
+                        "search-type": "searcher",
+                        "$t": "17F58BDCDE1478A0"
+                    },
+                    "detail-page": "http://obaliquid.staging.aquabrowser.nl/detail/%5bBob-Carlier%5d-Mores-Pedagogisch-tijdschrift/Tijdschrift/?itemid=%7coba-catalogus%7c836209",
+                    "coverimages": {
+                        "coverimage": {
+                            "translation": "Cover",
+                            "$t": "~/assets/resources/img/logo-small-ihlia.png?skin=oba"
+                        }
+                    },
+                    "titles": {
+                        "title": {
+                            "translation": "Titel",
+                            "search-method": "title",
+                            "search-term": "[Bob Carlier]. Mores Pedagogisch tijdschrift voor morele problemen",
+                            "search-type": "fuzzy",
+                            "$t": "[Bob Carlier]. Mores Pedagogisch tijdschrift voor morele problemen"
+                        },
+                        "short-title": {
+                            "translation": "Korte titel",
+                            "$t": "[Bob Carlier]. Mores Pedagogisch tijdschrift voor morele problemen"
+                        }
+                    },
+                    "formats": {
+                        "format": {
+                            "translation": "Formaat",
+                            "search-method": "format",
+                            "search-term": "magazine",
+                            "search-type": "searcher",
+                            "$t": "magazine"
+                        }
+                    },
+                    "languages": {
+                        "language": {
+                            "translation": "Taal",
+                            "search-method": "language",
+                            "search-term": "dut",
+                            "search-type": "searcher",
+                            "$t": "dut"
+                        }
+                    },
+                    "description": {
+                        "physical-description": {
+                            "translation": "Kenmerken",
+                            "$t": "ill"
+                        }
+                    },
+                    "summaries": {
+                        "summary": {
+                            "translation": "Samenvatting",
+                            "$t": "Themanummer [zonder titel] van het 'Pedagogische tijdschrift voor morele problemen' dat in z'n geheel een liber amicorum voor de Belgische germanist, homo- en aidsactivist en oprichter van de afdeling moraalwetenschappen aan de Rijks Universiteit Gent, Bob Carlier (1931-1990) is."
+                        }
+                    },
+                    "notes": {
+                        "note": {
+                            "translation": "Aantekening",
+                            "$t": "In: Mores; vol./jrg.:"
+                        }
+                    },
+                    "undup-info": {
+                        "key": "|oba-catalogus|836209",
+                        "cnt": "0",
+                        "sort": "title",
+                        "frabl": "17F58BDCDE1478A0",
+                        "frabl-global-count": "1",
+                        "frabl-key1": "bob carlier mores pedagogisch tijdschrift voor morele problemen",
+                        "frabl-key2": "",
+                        "translation": "Informatie over dubbele items"
+                    }
+                },
+                {
+                    "id": {
+                        "nativeid": "768208",
+                        "ds": "library/v/OBA",
+                        "translation": "ID",
+                        "search-method": "id",
+                        "search-term": "|oba-catalogus|768208",
+                        "search-type": "precise",
+                        "$t": "|oba-catalogus|768208"
+                    },
+                    "frabl": {
+                        "translation": "FRBR Nummer (FRABL)",
+                        "search-method": "frabl",
+                        "search-term": "4FB4E53138138CA0",
+                        "search-type": "searcher",
+                        "$t": "4FB4E53138138CA0"
+                    },
+                    "detail-page": "http://obaliquid.staging.aquabrowser.nl/detail/%5bJaarlijkse-rapportage-van-RIVM-over-SOA)/Dvd/?itemid=%7coba-catalogus%7c768208",
+                    "coverimages": {
+                        "coverimage": {
+                            "translation": "Cover",
+                            "$t": "~/assets/resources/img/logo-small-ihlia.png?skin=oba"
+                        }
+                    },
+                    "titles": {
+                        "title": {
+                            "translation": "Titel",
+                            "search-method": "title",
+                            "search-term": "[Jaarlijkse rapportage van RIVM over SOA) / presentatie Gerard Arninkhof",
+                            "search-type": "fuzzy",
+                            "$t": "[Jaarlijkse rapportage van RIVM over SOA) / presentatie Gerard Arninkhof"
+                        },
+                        "short-title": {
+                            "translation": "Korte titel",
+                            "$t": "[Jaarlijkse rapportage van RIVM over SOA)"
+                        }
+                    },
+                    "formats": {
+                        "format": [
+                            {
+                                "translation": "Formaat",
+                                "search-method": "format",
+                                "search-term": "dvdvideo",
+                                "search-type": "searcher",
+                                "$t": "dvdvideo"
+                            },
+                            {
+                                "translation": "Formaat",
+                                "search-method": "format",
+                                "search-term": "movie",
+                                "search-type": "searcher",
+                                "$t": "movie"
+                            }
+                        ]
+                    },
+                    "types": {
+                        "type": {
+                            "translation": "Type",
+                            "$t": "Film"
+                        }
+                    },
+                    "languages": {
+                        "language": {
+                            "translation": "Taal",
+                            "search-method": "language",
+                            "search-term": "dut",
+                            "search-type": "searcher",
+                            "$t": "dut"
+                        }
+                    },
+                    "description": {
+                        "physical-description": {
+                            "translation": "Kenmerken",
+                            "$t": "dvd (25 min.): kl"
+                        }
+                    },
+                    "summaries": {
+                        "summary": {
+                            "translation": "Samenvatting",
+                            "$t": "In het Journaal o.a. aandacht voor de jaarlijkse raportage van het Rijks Instituut voor Volksgezondheid en Milieu (RVIM) over seksueel overdraagbare aandoeningen (SOA) waaruit blijkt dat het aantal gevallen van SOA, waaronder HIV, in Nederland is toegenomen. Dit gebeurde vooral onder homo- en biseksuelemannen. Te zien is een tabel met de aandoeningen in procenten en getallen. Verder een interview met Roel Coutinho van het RIVM en met de voorzitter van het COC Frank van Dalen die een verklaring geven voor de toename van HIV met 64 %."
+                        }
+                    },
+                    "notes": {
+                        "note": [
+                            {
+                                "translation": "Aantekening",
+                                "$t": "Tellerstand: 0.00-0.25 (1)"
+                            },
+                            {
+                                "translation": "Aantekening",
+                                "$t": "Uitzenddatum: 30/11/2005"
+                            }
+                        ]
+                    },
+                    "series": {
+                        "series-title": {
+                            "translation": "In de reeks",
+                            "search-method": "series",
+                            "search-term": "8 uur-Journaal",
+                            "search-type": "searcher",
+                            "$t": "8 uur-Journaal"
+                        }
+                    },
+                    "undup-info": {
+                        "key": "|oba-catalogus|768208",
+                        "cnt": "0",
+                        "sort": "title",
+                        "frabl": "4FB4E53138138CA0",
+                        "frabl-global-count": "1",
+                        "frabl-key1": "jaarlijkse rapportage van rivm over soa",
+                        "frabl-key2": "",
+                        "translation": "Informatie over dubbele items"
+                    }
+                }
+            ]
+        },
+        "sort": {
+            "option": [
+                {
+                    "id": "relevance"
+                },
+                {
+                    "id": "year"
+                },
+                {
+                    "id": "title",
+                    "active": "true"
+                },
+                {
+                    "id": "author"
+                }
+            ]
+        }
+    }
+}
