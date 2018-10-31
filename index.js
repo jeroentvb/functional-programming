@@ -19,8 +19,12 @@ const client = new OBA({
 
 // Example search to the word 'rijk' sorted by title:
 client.get('search', {
-  q: 'rijk',
-  sort: 'title'
+  q: 'Arendsoog',
+  // sort: 'title',
+  librarian: true,
+  // pagesize: 2,
+  refine: true,
+  facet: 'type(book)'
 })
   .then(res => {
     exportObj('test', res)
@@ -33,23 +37,20 @@ client.get('search', {
       console.log(data[index].titles.title.$t)
       array.push(data[index].titles.title.$t)
     })
+    
     console.log(array)
 
   }) // JSON results
   .catch(err => console.log(err)) // Something went wrong in the request to the API
 
 
-  function objToStr(obj) {
-    return JSON.stringify(obj, null, 4)
+  function formatJson(obj) {
+    return JSON.stringify(JSON.parse(obj), null, 4)
   }
 
   function exportObj(name, obj) {
-    fs.writeFile(name + '-export.json', objToStr(JSON.parse(obj)), function(err) {
-      if (err) {
-        throw err
-      } else {
-        console.log(`${name}-export.json written`)
-      }
+    fs.writeFile(name + '-export.json', formatJson(obj), err => {
+      if (err) throw err
+      console.log(`${name}-export.json written`)
     })
-    return
   }
