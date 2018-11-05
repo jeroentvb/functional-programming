@@ -1,7 +1,8 @@
 'use strict'
 
 const OBA = require('oba-api')
-const fs = require('fs')
+// const fs = require('fs')
+const helper = require('./helper')
 
 require('dotenv').config()
 
@@ -12,6 +13,12 @@ const client = new OBA({
   secret: process.env.SECRET_KEY
 })
 
+const genres = [
+  'western',
+  'thriller',
+  'detective'
+]
+
 // General usage:
 // client.get({ENDPOINT}, {PARAMS});
 // ENDPOINT = search | details | refine | schema | availability | holdings
@@ -19,59 +26,100 @@ const client = new OBA({
 
 // Client returns a promise which resolves the APIs output in JSON
 
-function getBookPagesAmount (genre, page) {
-  return client.get('search', {
-    q: genre,
-    librarian: true,
-    refine: true,
-    facet: ['type(book)', `genre(${genre})`],
-    page: page
-  })
-    .then(res => {
-      // exportObj('test', res)
-      let data = {
-        meta: {
-          count: Math.ceil((JSON.parse(res)).aquabrowser.meta.count / 20),
-          page: (JSON.parse(res)).aquabrowser.meta.page,
-          genre: genre
-        },
-        pageAmounts: []
-      }
-      let results = (JSON.parse(res)).aquabrowser.results.result
-      results.forEach((item, index) => {
-        let pages = results[index]['librarian-info'].record.marc.df215
-        if (pages) {
-          data.pageAmounts.push(
-            parseInt(pages.df215[0].$t.replace(/(^\d+)(.+$)/i, '$1'))
-          )
-        }
-      })
-      // console.log(data)
-      return data
+function getData (genre, page) {
+  return new Promise((resolve, reject) => {
+    client.get('search', {
+      q: genre,
+      librarian: true,
+      refine: true,
+      facet: ['type(book)', `genre(${genre})`],
+      page: page
     })
-    .catch(err => console.log(err))
+      .then(res => {
+        let data = {
+          meta: {
+            count: Math.ceil((JSON.parse(res)).aquabrowser.meta.count / 20),
+            page: (JSON.parse(res)).aquabrowser.meta.page,
+            genre: genre
+          },
+          pageAmounts: []
+        }
+        let results = (JSON.parse(res)).aquabrowser.results.result
+        results.forEach((item, index) => {
+          let pages = results[index]['librarian-info'].record.marc.df215
+          if (pages) {
+            data.pageAmounts.push(
+              parseInt(pages.df215[0].$t.replace('[', '').replace(']', ''))
+            )
+          }
+        })
+        // console.log(data)
+        resolve(data)
+      })
+      .catch(err => {
+        console.log(err)
+        reject(err)
+      })
+  })
 }
 
 // getBookPageAmount('western', 1)
 
-function getData () {
-  let genres = [
-    'western',
-    'thriller',
-    'detective'
-  ]
-  let allPages = []
-
-  genres.forEach(async (item, i) => {
-    let firstRequest = await getBookPagesAmount(genres[i], 1)
-    console.log(`Line 69: ${JSON.stringify(firstRequest)}`)
-    // firstRequest.meta.count.forEach(async (item, x) => {
-    //   // let pages = getBookPagesAmount(genres[i], x + 1)
-    // })
+function getPageAmount (genre) {
+  return new Promise((resolve, reject) => {
+    getData(genre, 1)
+      .then(data => resolve(data))
+      .catch(err => {
+        console.log(err)
+        reject(err)
+      })
   })
 }
 
-getData()
+function getAllData (prevData) {
+  let pageAmount = prevData.meta.count
+  console.log(pageAmount)
+  let allData = []
+
+  genres.forEach((item, i) => {
+    getData(genres[i], x)
+      .then(data => {
+        data.pageAmounts.forEach((item, y) => allData.push(data.pageAmounts[y]))
+        // allData.push(data.pageAmounts)
+        // console.log(data.pageAmounts)
+        // console.log(allData)
+        return allData
+      })
+      .then(allData => console.log(allData)) // helper.exportArr(allData))
+      .catch(err => console.log(err))
+  })
+
+  // genres.forEach((item, i) => {
+  //   getData(genres[i], 1)
+  //     .then(data => {
+  //       // Do stuff with data
+  //     })
+  //     .catch(err => console.log(err))
+  // })
+}
+
+// getData()
+genres.forEach((item, i) => {
+  getPageAmount(genres[i])
+    .then(data => {
+      let temp = 0
+      data.pageAmounts.forEach((item, x) => {
+        if (typeof data.pageAmounts[x] === 'number' && isNaN(data.pageAmounts[x]) === false) {
+          temp += data.pageAmounts[x]
+        }
+      })
+      let total = Math.round(temp / data.pageAmounts.length)
+      data.pageAmounts.push(total)
+      helper.exportArr(data.meta.genre, data.pageAmounts)
+    })
+    .catch(err => console.log(err))
+})
+
 /*
 client.get('search', {
   q: 'b',
@@ -117,13 +165,3 @@ client.get('search', {
   }) // JSON results
   .catch(err => console.log(err)) // Something went wrong in the request to the API
 */
-function formatJson (obj) {
-  return JSON.stringify(JSON.parse(obj), null, 4)
-}
-
-function exportObj (name, obj) {
-  fs.writeFile(name + '-export.json', formatJson(obj), err => {
-    if (err) throw err
-    console.log(`${name}-export.json written`)
-  })
-}
