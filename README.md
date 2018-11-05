@@ -45,7 +45,7 @@ Eerst heb ik passende datavisualisaties geschetst bij mijn data.
 Mijn voorkeur gaat naar de rechter schets omdat die meer informatie geeft.
 Vervolgens heb ik een [scatter plot van Mike Bostock](https://beta.observablehq.com/@mbostock/d3-scatterplot) geforkt en ben ik daar mee gaan spelen.
 Ik heb een beetje gekeken wat wat doet en hoe het werkt en vervolgens een beetje van mijn data er in gezet.
-![eerste probeersel observable & D3](/bin/img/d3-scatterplot-test.jpg)
+![eerste probeersel observable & D3](/bin/img/d3-scatterplot-test.JPG)
 
 ## Todo
 * Deelvragen bedenken
