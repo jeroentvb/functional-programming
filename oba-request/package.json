@@ -1,0 +1,27 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "🎓 A repo for my functional programming (with d3) project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeroentvb/functional-programming.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeroentvb/functional-programming/issues"
+  },
+  "homepage": "https://github.com/jeroentvb/functional-programming#readme",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "oba-api": "github:rijkvanzanten/node-oba-api"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}

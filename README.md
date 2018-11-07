@@ -38,14 +38,17 @@ Om die rede ga ik de genres met de minder precieze `/search` query doen.
 Ik heb eerst in een persoonlijk project geëxperimenteerd met promises om te zien hoe dat werkt, en zo de basis geleerd.
 Daarna ben ik promises toe gaan passen op de `getData` en `getPageAmount` functions en ben ik de pagina aantallen van boeken van een genre op gaan halen.
 
-# D3
-Op aanraden van Titus ben ik maandag begonnen met kijken naar D3 voorbeelden op [observable](). Ik was namelijk nog steeds bezig met het ophalen van data.
+## D3
+Op aanraden van Titus ben ik maandag begonnen met kijken naar D3 voorbeelden op [observable](). Ik was namelijk nog steeds bezig met het ophalen van data. Op het moment van schrijven heb ik alleen de eerste pagina's met resultaten van 3 genres.
 Eerst heb ik passende datavisualisaties geschetst bij mijn data.
 ![schets datavis](/bin/img/sketch.jpg)
 Mijn voorkeur gaat naar de rechter schets omdat die meer informatie geeft.
 Vervolgens heb ik een [scatter plot van Mike Bostock](https://beta.observablehq.com/@mbostock/d3-scatterplot) geforkt en ben ik daar mee gaan spelen.
 Ik heb een beetje gekeken wat wat doet en hoe het werkt en vervolgens een beetje van mijn data er in gezet.
 ![eerste probeersel observable & D3](/bin/img/d3-scatterplot-test.JPG)
+
+## Meerdere pagina's ophalen
+Ik wilde meerdere pagina's ophalen zodat ik een grotere dataset kreeg. Op het moment dat de code af was en ik probeerde meerdere pagina's met resultaten op te halen kreeg ik geen resultaten meer terug via Rijk's npm pakketje. De API deed het wel via de browser..
 
 ## Todo
 * Deelvragen bedenken
