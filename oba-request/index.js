@@ -2,12 +2,10 @@
 
 const OBA = require('oba-api')
 const helper = require('./helper')
-
 require('dotenv').config()
 
 // Setup authentication to api server
 const client = new OBA({
-  // ProQuest API Keys
   public: process.env.PUBLIC_KEY,
   secret: process.env.SECRET_KEY
 })
@@ -24,11 +22,6 @@ const genres = [
   'homofiel-thema',
   'feministisch-verhaal'
 ]
-
-// General usage:
-// client.get({ENDPOINT}, {PARAMS});
-// ENDPOINT = search | details | refine | schema | availability | holdings
-// PARAMS = API url parameter options (see api docs for more info)
 
 function getData (genre, page) {
   return new Promise((resolve, reject) => {
@@ -52,14 +45,12 @@ function getData (genre, page) {
         let results = (JSON.parse(res)).aquabrowser.results.result
         results.forEach((item, index) => {
           let pages = results[index]['librarian-info'].record.marc.df215
-          // console.log(pages)
           if (pages !== undefined && pages.df215[0] !== undefined && pages.df215[0].$t !== undefined) {
             data.pageAmounts.push(
               parseInt(pages.df215[0].$t.replace('[', '').replace(']', ''))
             )
           }
         })
-        // console.log(data)
         resolve(data)
       })
       .catch(err => {
@@ -69,7 +60,7 @@ function getData (genre, page) {
   })
 }
 
-// Filter numbers
+// Filter numbers, push to new array, return new array
 function getNumbers (arr, newArr) {
   arr.forEach(item => {
     if (typeof item === 'number' && isNaN(item) === false) {
@@ -79,6 +70,7 @@ function getNumbers (arr, newArr) {
   return newArr
 }
 
+// Calculate the average pages of a genre
 function calcAveragePages (arr) {
   let total = 0
   arr.forEach(number => {
@@ -88,8 +80,8 @@ function calcAveragePages (arr) {
   return Math.round(total / arr.length)
 }
 
+// Global var to store all the results in
 var results = []
-
 genres.forEach(genre => {
   console.log(`Starting requests for genre: ${genre}`)
   getData(genre, 1)
@@ -113,9 +105,6 @@ genres.forEach(genre => {
             }
           })
           .catch(err => console.log(err))
-
-        // Export all pages amounts
-        // helper.exportArr(genres[index], filteredPages)
       }
     })
     .then(() => helper.exportArr('results', results))
