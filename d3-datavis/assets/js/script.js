@@ -1,13 +1,23 @@
 var dataset = [
   {
+    'genre': 'bijbels-verhaal',
+    'booksAmount': 103,
+    'averagePages': 288
+  },
+  {
+    'genre': 'feministisch-verhaal',
+    'booksAmount': 202,
+    'averagePages': 296
+  },
+  {
     'genre': 'western',
     'booksAmount': 268,
     'averagePages': 150
   },
   {
     'genre': 'spionage',
-    'booksAmount': 64,
-    'averagePages': 309
+    'booksAmount': 337,
+    'averagePages': 319
   },
   {
     'genre': 'homofiel-thema',

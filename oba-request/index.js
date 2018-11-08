@@ -11,20 +11,20 @@ const client = new OBA({
 })
 
 const genres = [
-  'western',
+  // 'western',
   'thriller',
   'detective',
-  'sport',
+  // 'sport',
   'science-fiction',
   'stripverhaal',
-  'spionage',
+  // 'spionage',
   'humor',
-  'feministisch-verhaal',
+  // 'feministisch-verhaal',
   'school',
   'sprookjes',
   'dieren',
-  'avonturenroman',
-  'bijbels-verhaal'
+  'avonturenroman'
+  // 'bijbels-verhaal'
 ]
 
 function getData (genre, page) {
