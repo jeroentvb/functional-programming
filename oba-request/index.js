@@ -107,6 +107,10 @@ genres.forEach(genre => {
           .catch(err => console.log(err))
       }
     })
-    .then(() => helper.exportArr('results', results))
+    .then(() => {
+      if (results.length === genres.length) {
+        helper.exportArr('results', results)
+      }
+    })
     .catch(err => console.log(err))
 })
