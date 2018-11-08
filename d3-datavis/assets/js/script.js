@@ -1,8 +1,8 @@
 const dataset = [
   {
     'genre': 'western',
-    'booksAmount': 62,
-    'averagePages': 139
+    'booksAmount': 268,
+    'averagePages': 150
   },
   {
     'genre': 'spionage',
@@ -48,14 +48,64 @@ const dataset = [
 dataset.x = 'Aantal boeken in een genre'
 dataset.y = `Gemiddeld aantal pagina's per boek per genre`
 
-// const dataset = [
-//   [256, 60], [480, 270], [250, 150], [100, 99], [330, 285],
-//   [410, 36], [475, 132], [25, 180], [85, 63], [220, 240]
-// ]
+const colors = ['#FF6633',
+  '#FFB399',
+  '#FF33FF',
+  '#00B3E6',
+  '#E6B333',
+  '#3366E6',
+  '#999966',
+  '#99FF99',
+  '#B34D4D',
+  '#80B300',
+  '#809900',
+  '#E6B3B3',
+  '#6680B3',
+  '#66991A',
+  '#FF99E6',
+  '#CCFF1A',
+  '#FF1A66',
+  '#E6331A',
+  '#33FFCC',
+  '#66994D',
+  '#B366CC',
+  '#4D8000',
+  '#B33300',
+  '#CC80CC',
+  '#66664D',
+  '#991AFF',
+  '#E666FF',
+  '#4DB3FF',
+  '#1AB399',
+  '#E666B3',
+  '#33991A',
+  '#CC9999',
+  '#B3B31A',
+  '#00E680',
+  '#4D8066',
+  '#809980',
+  '#E6FF80',
+  '#1AFF33',
+  '#999933',
+  '#FF3380',
+  '#CCCC00',
+  '#66E64D',
+  '#4D80CC',
+  '#9900B3',
+  '#E64D66',
+  '#4DB380',
+  '#FF4D4D',
+  '#99E6E6',
+  '#6666FF'
+]
+
+dataset.forEach((datapoint, index) => {
+  datapoint.color = colors[index]
+})
 
 // const width = 500
 const height = 600
-const width = 800
+const width = Math.round(d3.select('body').node().getBoundingClientRect().width) - 50
 const margin = ({
   top: 20,
   right: 30,
@@ -65,9 +115,12 @@ const margin = ({
 
 var x = d3.scaleLinear()
   // Add the correct values to the xAxis
-  .domain(d3.extent(dataset, d => d.booksAmount)).nice()
+  // .domain(d3.extent(dataset, d => d.booksAmount)).nice()
+  .domain([d3.min(dataset, d => d.booksAmount), d3.max(dataset, d => d.booksAmount + 2000)]).nice()
   // Put the xAxis in the right place using margin
   .range([margin.left, width - margin.right])
+
+console.log(d3.extent(dataset, d => d.booksAmount))
 
 var y = d3.scaleLinear()
   // Add the correct values to the yAxis
@@ -80,8 +133,13 @@ function xAxis (g) {
     .attr('transform', `translate(0,${height - 30})`)
 
     // Create bottom (xAxis) scale
-    .call(d3.axisBottom(x))
+    .call(d3.axisBottom(x).ticks(width / 50))
     // .call(g => g.select('.domain').remove())
+    // Draw vertical lines
+    .call(g => g.selectAll('.tick line').clone()
+      .attr('y2', -height)
+      .attr('stroke-opacity', 0.1))
+
     .call(g => g.append('text')
       // Margin for xAxis label
       .attr('x', width - margin.right)
@@ -102,6 +160,11 @@ function yAxis (g) {
     // Create left (yAxis) scale
     .call(d3.axisLeft(y))
     // .call(g => g.select('.domain').remove())
+    // Draw horizontal lines
+    .call(g => g.selectAll('.tick line').clone()
+      .attr('x2', width)
+      .attr('stroke-opacity', 0.1))
+
     .call(g => g.select('.tick:last-of-type text').clone()
       // Left margin for label
       .attr('x', 4)
@@ -124,8 +187,8 @@ function dataPoints (g) {
     // Position circles
     .attr('cx', d => x(d.booksAmount))
     .attr('cy', d => y(d.averagePages))
-    // .attr('r', 5)
-    .attr('r', d => Math.sqrt(d.averagePages))
+    .attr('r', 10)
+    .attr('fill', d => d.color)
 }
 
 function addText (g) {
@@ -137,10 +200,10 @@ function addText (g) {
     .selectAll('text')
     .data(dataset)
     .enter().append('text')
-    .text(d => `${d.genre}, ${d.booksAmount} boeken, ${d.averagePages} pagina's gemiddeld`)
+    .text(d => `Genre: ${d.genre}, ${d.booksAmount} boeken, ${d.averagePages} pagina's gemiddeld`)
     // Text location
-    .attr('x', d => x(d.booksAmount))
-    .attr('y', d => y(d.averagePages))
+    .attr('x', d => x(d.booksAmount + 200))
+    .attr('y', d => y(d.averagePages - 2.5))
 }
 
 const svg = d3.select('svg')
