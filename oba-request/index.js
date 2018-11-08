@@ -16,11 +16,15 @@ const genres = [
   'detective',
   'sport',
   'science-fiction',
-  // 'stripverhaal',
-  // 'spionage',
-  // 'humor',
-  // 'homofiel-thema',
-  // 'feministisch-verhaal'
+  'stripverhaal',
+  'spionage',
+  'humor',
+  'feministisch-verhaal',
+  'school',
+  'sprookjes',
+  'dieren',
+  'avonturenroman',
+  'bijbels-verhaal'
 ]
 
 function getData (genre, page) {
@@ -51,7 +55,8 @@ function getData (genre, page) {
             )
           }
         })
-        resolve(data)
+        // Don't spam the OBA server with request. Wait 1 second for every genre in the genres array before resolving the response and moving on to the next one
+        setTimeout(() => resolve(data), genres.length * 1000)
       })
       .catch(err => {
         console.log(err)
@@ -60,16 +65,13 @@ function getData (genre, page) {
   })
 }
 
+var results = []
 async function getAllData (genre, data) {
   var filteredPages = []
-  var results = []
 
   for (let i = 1; i < data.meta.count + 1; i++) {
     await getData(genre, i)
-      .then(data => {
-        helper.getNumbers(data.pageAmounts, filteredPages)
-        return filteredPages
-      })
+      .then(data => helper.getNumbers(data.pageAmounts, filteredPages))
       .then(filteredPages => {
         // If the last page was received, push the data in a new array
         if (i === data.meta.count) {
@@ -85,7 +87,6 @@ async function getAllData (genre, data) {
       })
       .catch(err => console.log(err))
   }
-  return results
 }
 
 genres.forEach(genre => {
