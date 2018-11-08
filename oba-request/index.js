@@ -26,10 +26,10 @@ const genres = [
 function getData (genre, page) {
   return new Promise((resolve, reject) => {
     client.get('search', {
-      q: genre,
+      q: 'format:book',
       librarian: true,
       refine: true,
-      facet: ['type(book)', `genre(${genre})`],
+      facet: `genre(${genre})`,
       page: page
     })
       .then(res => {
