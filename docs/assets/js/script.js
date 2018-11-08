@@ -125,7 +125,7 @@ function dataPoints (g) {
     .attr('cx', d => x(d.booksAmount))
     .attr('cy', d => y(d.averagePages))
     // .attr('r', 5)
-    .attr('r', d => Math.sqrt(d.averagePages))
+    .attr('r', 5)
 }
 
 function addText (g) {
