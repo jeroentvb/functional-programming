@@ -120,11 +120,9 @@ var x = d3.scaleLinear()
   // Put the xAxis in the right place using margin
   .range([margin.left, width - margin.right])
 
-console.log(d3.extent(dataset, d => d.booksAmount))
-
 var y = d3.scaleLinear()
   // Add the correct values to the yAxis
-  .domain(d3.extent(dataset, d => d.averagePages)).nice()
+  .domain([50, d3.max(dataset, d => d.averagePages)]).nice()
   // Put the yAxis in the right place using margin
   .range([height - margin.bottom, margin.top])
 
@@ -195,7 +193,7 @@ function addText (g) {
   g
     // Style group
     .attr('font-family', 'sans-serif')
-    .attr('font-size', '11px')
+    .attr('font-size', '12px')
     // .attr('fill', 'red')
     .selectAll('text')
     .data(dataset)
