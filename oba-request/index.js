@@ -16,11 +16,11 @@ const genres = [
   'detective',
   'sport',
   'science-fiction',
-  'stripverhaal',
-  'spionage',
-  'humor',
-  'homofiel-thema',
-  'feministisch-verhaal'
+  // 'stripverhaal',
+  // 'spionage',
+  // 'humor',
+  // 'homofiel-thema',
+  // 'feministisch-verhaal'
 ]
 
 function getData (genre, page) {
@@ -60,57 +60,38 @@ function getData (genre, page) {
   })
 }
 
-// Filter numbers, push to new array, return new array
-function getNumbers (arr, newArr) {
-  arr.forEach(item => {
-    if (typeof item === 'number' && isNaN(item) === false) {
-      newArr.push(item)
-    }
-  })
-  return newArr
+async function getAllData (genre, data) {
+  var filteredPages = []
+  var results = []
+
+  for (let i = 1; i < data.meta.count + 1; i++) {
+    await getData(genre, i)
+      .then(data => {
+        helper.getNumbers(data.pageAmounts, filteredPages)
+        return filteredPages
+      })
+      .then(filteredPages => {
+        // If the last page was received, push the data in a new array
+        if (i === data.meta.count) {
+          results.push({
+            genre: genre,
+            booksAmount: filteredPages.length,
+            averagePages: helper.calcAveragePages(filteredPages)
+          })
+          console.log(results)
+          // In case something goes wrong, write the results after every completed genre
+          helper.exportArr('results', results)
+        }
+      })
+      .catch(err => console.log(err))
+  }
+  return results
 }
 
-// Calculate the average pages of a genre
-function calcAveragePages (arr) {
-  let total = 0
-  arr.forEach(number => {
-    total += number
-    return total
-  })
-  return Math.round(total / arr.length)
-}
-
-// Global var to store all the results in
-var results = []
 genres.forEach(genre => {
   console.log(`Starting requests for genre: ${genre}`)
+  // Get the first page to know how many requests have to be sent
   getData(genre, 1)
-    .then(async data => {
-      let filteredPages = []
-
-      for (let i = 1; i < data.meta.count + 1; i++) {
-        await getData(genre, i)
-          .then(data => {
-            getNumbers(data.pageAmounts, filteredPages)
-            return filteredPages
-          })
-          .then(filteredPages => {
-            if (i === data.meta.count) {
-              results.push({
-                genre: genre,
-                booksAmount: filteredPages.length,
-                averagePages: calcAveragePages(filteredPages)
-              })
-              console.log(results)
-            }
-          })
-          .catch(err => console.log(err))
-      }
-    })
-    .then(() => {
-      if (results.length === genres.length) {
-        helper.exportArr('results', results)
-      }
-    })
+    .then(data => getAllData(genre, data))
     .catch(err => console.log(err))
 })

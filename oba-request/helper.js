@@ -19,8 +19,30 @@ function exportArr (name, arr) {
   })
 }
 
+// Filter numbers, push to new array, return new array
+function getNumbers (arr, newArr) {
+  arr.forEach(item => {
+    if (typeof item === 'number' && isNaN(item) === false) {
+      newArr.push(item)
+    }
+  })
+  return newArr
+}
+
+// Calculate the average pages of a genre
+function calcAveragePages (arr) {
+  let total = 0
+  arr.forEach(number => {
+    total += number
+    return total
+  })
+  return Math.round(total / arr.length)
+}
+
 module.exports = {
   formatJson,
   exportObj,
-  exportArr
+  exportArr,
+  getNumbers,
+  calcAveragePages
 }
