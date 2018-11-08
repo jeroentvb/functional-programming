@@ -58,7 +58,9 @@ Later bleek dat dit kwam doordat zijn code de staging API gebruikte. Door de lin
 Ik heb toen van 10 genres alle lengtes van de pagina's en het aantal boeken in het genre opgehaald. De volgende array is het resultaat.
 
 <details><summary>Array met resultaten</summary>
+ 
   ```JSON
+ 
   [
       {
           "genre": "western",
@@ -106,7 +108,9 @@ Ik heb toen van 10 genres alle lengtes van de pagina's en het aantal boeken in h
           "averagePages": 358
       }
   ]
+  
   ```
+  
 </details>
 
 Wel werd mij later verteld dat je `format:book` als query mee kan geven waardoor je alle boeken op kan halen. Dit kon ik combineren met het facet `genre(western)` om alle boeken van het genre western op te halen. Ik moest dus opnieuw alle data ophalen.
