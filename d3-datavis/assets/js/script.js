@@ -1,4 +1,4 @@
-const dataset = [
+var dataset = [
   {
     'genre': 'western',
     'booksAmount': 268,
@@ -105,7 +105,7 @@ dataset.forEach((datapoint, index) => {
 
 // const width = 500
 const height = 600
-const width = Math.round(d3.select('body').node().getBoundingClientRect().width) - 50
+var width = Math.round(d3.select('body').node().getBoundingClientRect().width) - 50
 const margin = ({
   top: 20,
   right: 30,
