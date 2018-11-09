@@ -1,7 +1,7 @@
 > response: { status: 500, statusText: 'Internal Server Error' }
 
 # functional-programming ⚙️
-[Data visualisation](/d3-datavis/index.html)
+[Data visualisation](https://jeroentvb.github.io/functional-programming/d3-datavis/index.html)
 
 ## Usage
 To use the application enter the following commands in your terminal:
@@ -139,4 +139,4 @@ Na wat finetunen en uitvogelen hoe ik het `.domain()` kon vergroten kwam ik tot 
 ## Conclusie 📝
 Ik vind persoonlijk mijn onderzoeksvraag en hypothese niet zo sterk. Dit komt vooral omdat ik er niet zo veel tijd aan heb besteed en ik al snel data ben gaan ophalen.
 Wel vind ik de data die ik heb opgehaald interessant en kan je in mijn visualisatie goed zien welke genres gemiddeld veel pagina's per boek hebben en hoeveel boeken er in een genre zitten.
-[Data visualisation](/d3-datavis/index.html)
+[Data visualisation](https://jeroentvb.github.io/functional-programming/d3-datavis/index.html)
