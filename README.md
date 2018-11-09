@@ -3,15 +3,27 @@
 # functional-programming ⚙️
 [Data visualisation](/d3-datavis/index.html)
 
+## Usage
+To use the application enter the following commands in your terminal:
+```
+git clone https://github.com/jeroentvb/functional-programming.git
+cd functional-programming/oba-request
+npm install
+echo PUBLIC_KEY=public key here >> .env
+echo SECRET_KEY=private key here >> .env
+```
+change the `genres` array with the genres you want to get info for. *I don't recommend sending requests for more than 1 genre at once, because you will get a 500 error after sending too many requests*
+
 ## Inhoud 📋
 * [Onderzoeksvragen](#onderzoeksvragen-)
 * [Hypothesen](#hypothesen-)
 * [Benodigde data](#benodigde-data-)
 * [Het verkrijgen van data](#het-verkijgen-van-data-)
-* [Data ophalen](#code-)
+* [Code](#code-)
 * [Observable](#observable-)
 * [Meerdere pagina's ophalen uit de API](#meer-pagina's-ophalen-)
 * [D3](#d3-)
+* [Conclusie](#conclusie-)
 
 ## Onderzoeksvragen 🤔
 * Welk genre heeft gemiddeld genomen het meest aantal pagina's per boek?
@@ -41,7 +53,7 @@ Om die rede ga ik de genres met de minder precieze `/search` query doen.
 
 ## Code 🖥️
 Ik heb eerst in een persoonlijk project geëxperimenteerd met promises om te zien hoe dat werkt, en zo de basis geleerd.
-Daarna ben ik promises toe gaan passen op de `getData` function en ben ik de pagina aantallen van boeken van een genre op gaan halen. Het was vooral heel veel trail & `console.log(err)`
+Daarna heb ik een promise toegepast op de [getData](https://github.com/jeroentvb/functional-programming/blob/0a199476e587e086446dd40763a0d9c84abf40b0/oba-request/index.js#L30-L66) function en ben ik de pagina aantallen van boeken van een genre op gaan halen. Het was vooral heel veel trail & `console.log(err)`
 
 ## Observable 🔍
 Op aanraden van Titus ben ik maandag begonnen met kijken naar D3 voorbeelden op observable. Ik was namelijk nog steeds bezig met het ophalen van data. Op het moment van schrijven heb ik alleen de eerste pagina's met resultaten van 3 genres.
@@ -55,12 +67,12 @@ Ik heb een beetje gekeken wat wat doet en hoe het werkt en vervolgens wat van mi
 ## Meerdere pagina's ophalen 📖
 Ik wilde meerdere pagina's ophalen zodat ik een grotere dataset kreeg. Op het moment dat de code af was en ik probeerde meerdere pagina's met resultaten op te halen kreeg ik geen resultaten meer terug via Rijk's node pakketje. De API deed het wel via de browser..
 Later bleek dat dit kwam doordat zijn code de staging API gebruikte. Door de link in zijn code te veranderen naar de live API werkte het wel weer.
-Ik heb toen van 10 genres alle lengtes van de pagina's en het aantal boeken in het genre opgehaald. De volgende array is het resultaat.
+Ik heb toen van 10 genres alle lengtes van de pagina's en het aantal boeken in het genre met [deze functie](https://github.com/jeroentvb/functional-programming/blob/0a199476e587e086446dd40763a0d9c84abf40b0/oba-request/index.js#L69-L90) opgehaald. De volgende array is het resultaat.
 
 <details><summary>Array met resultaten</summary>
- 
+
   ```JSON
- 
+
   [
       {
           "genre": "western",
@@ -108,18 +120,23 @@ Ik heb toen van 10 genres alle lengtes van de pagina's en het aantal boeken in h
           "averagePages": 358
       }
   ]
-  
-  ```
-  
-</details>
 
-Wel werd mij later verteld dat je `format:book` als query mee kan geven waardoor je alle boeken op kan halen. Dit kon ik combineren met het facet `genre(western)` om alle boeken van het genre western op te halen. Ik moest dus opnieuw alle data ophalen.
+  ```
+
+</details>  
+
+Wel werd mij later verteld dat je `format:book` als query mee kan geven waardoor je alle boeken op kan halen. Dit kon ik combineren met het facet `genre(western)` om alle boeken van het genre western op te halen. Ik moest dus opnieuw alle data ophalen. [Dit is dus mijn uiteindelijke query](https://github.com/jeroentvb/functional-programming/blob/0a199476e587e086446dd40763a0d9c84abf40b0/oba-request/index.js#L32-L38)
 
 ## D3 📈
-Vervolgens ben ik lokaal een scatterplot gaan maken met de bovenstaande data en de scatterplot op Observable. Ik heb kleine stukjes gekopiërd, gekeken wat het doet en wat het nodig heeft en bij bijna alles een comment geplaatst wat het doet. Daarna heb ik de code aangepast aan hoe ik mijn datavisualisatie wilde hebben.
+> Error,	js-standard,	'd3' is not defined.
+
+Vervolgens ben ik lokaal een scatterplot gaan maken met de bovenstaande data, de scatterplot op Observable en [deze tutorial](https://www.oreilly.com/learning/making-a-scatterplot-with-d3-js) van o'reilly. Ik heb kleine stukjes gekopiërd, gekeken wat het doet en bij bijna alles een [comment](https://github.com/jeroentvb/functional-programming/blob/master/d3-datavis/assets/js/script.js) geplaatst wat het doet. Daarna heb ik de code aangepast aan hoe ik mijn datavisualisatie wilde hebben.
 Dit was mijn eerste probeersel.
 ![eerste versie datavis](/bin/img/scatterplot-1.JPG)
 Na wat finetunen en uitvogelen hoe ik het `.domain()` kon vergroten kwam ik tot het volgende resultaat.
 ![tweede versie datavis](/bin/img/scatterplot-2.JPG)
 
-## Conclusie
+## Conclusie 📝
+Ik vind persoonlijk mijn onderzoeksvraag en hypothese niet zo sterk. Dit komt vooral omdat ik er niet zo veel tijd aan heb besteed en ik al snel data ben gaan ophalen.
+Wel vind ik de data die ik heb opgehaald interessant en kan je in mijn visualisatie goed zien welke genres gemiddeld veel pagina's per boek hebben en hoeveel boeken er in een genre zitten.
+[Data visualisation](/d3-datavis/index.html)
