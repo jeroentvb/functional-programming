@@ -36,12 +36,12 @@ var dataset = [
   },
   {
     'genre': 'detective',
-    'booksAmount': 1989,
-    'averagePages': 266
+    'booksAmount': 6251,
+    'averagePages': 263
   },
   {
     'genre': 'science-fiction',
-    'booksAmount': 4607,
+    'booksAmount': 4619,
     'averagePages': 302
   },
   {
@@ -51,8 +51,18 @@ var dataset = [
   },
   {
     'genre': 'thriller',
-    'booksAmount': 8857,
+    'booksAmount': 8834,
     'averagePages': 358
+  },
+  {
+    'genre': 'sprookjes',
+    'booksAmount': 2838,
+    'averagePages': 152
+  },
+  {
+    'genre': 'avonturenroman',
+    'booksAmount': 1505,
+    'averagePages': 216
   }
 ]
 dataset.x = 'Aantal boeken in een genre'
@@ -115,6 +125,7 @@ dataset.forEach((datapoint, index) => {
 
 // const width = 500
 const height = 600
+// Make the chart as wide as the viewport
 var width = Math.round(d3.select('body').node().getBoundingClientRect().width) - 50
 const margin = ({
   top: 20,
