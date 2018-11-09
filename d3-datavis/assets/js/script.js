@@ -63,6 +63,11 @@ var dataset = [
     'genre': 'avonturenroman',
     'booksAmount': 1505,
     'averagePages': 216
+  },
+  {
+    'genre': 'school',
+    'booksAmount': 1533,
+    'averagePages': 148
   }
 ]
 dataset.x = 'Aantal boeken in een genre'
