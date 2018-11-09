@@ -12,18 +12,18 @@ const client = new OBA({
 
 const genres = [
   // 'western',
-  'thriller',
-  'detective',
+  //'thriller'
+  //'detective'
   // 'sport',
-  'science-fiction',
-  'stripverhaal',
+  //'science-fiction'
+    //'stripverhaal'
   // 'spionage',
-  'humor',
-  // 'feministisch-verhaal',
-  'school',
-  'sprookjes',
-  'dieren',
-  'avonturenroman'
+    // 'humor',
+  //'feministisch-verhaal',
+  'school'
+  //'sprookjes'
+    // 'dieren'
+  // 'avonturenroman'
   // 'bijbels-verhaal'
 ]
 
@@ -65,8 +65,7 @@ function getData (genre, page) {
   })
 }
 
-var results = []
-async function getAllData (genre, data) {
+async function getAllData (genre, data, results) {
   var filteredPages = []
 
   for (let i = 1; i < data.meta.count + 1; i++) {
@@ -83,16 +82,21 @@ async function getAllData (genre, data) {
           console.log(results)
           // In case something goes wrong, write the results after every completed genre
           helper.exportArr('results', results)
+          return results
         }
       })
       .catch(err => console.log(err))
   }
 }
 
-genres.forEach(genre => {
-  console.log(`Starting requests for genre: ${genre}`)
-  // Get the first page to know how many requests have to be sent
-  getData(genre, 1)
-    .then(data => getAllData(genre, data))
-    .catch(err => console.log(err))
-})
+(function () {
+  let results = []
+
+  genres.forEach(genre => {
+    console.log(`Starting requests for genre: ${genre}`)
+    // Get the first page to know how many requests have to be sent
+    getData(genre, 1)
+      .then(data => getAllData(genre, data, results))
+      .catch(err => console.log(err))
+  })
+})()
